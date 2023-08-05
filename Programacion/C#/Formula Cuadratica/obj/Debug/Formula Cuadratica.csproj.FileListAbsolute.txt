@@ -1,0 +1,11 @@
+D:\Visual Studio\Formula Cuadratica\bin\Debug\Formula Cuadratica.exe.config
+D:\Visual Studio\Formula Cuadratica\bin\Debug\Formula Cuadratica.exe
+D:\Visual Studio\Formula Cuadratica\bin\Debug\Formula Cuadratica.pdb
+D:\Visual Studio\Formula Cuadratica\obj\Debug\Formula Cuadratica.csproj.AssemblyReference.cache
+D:\Visual Studio\Formula Cuadratica\obj\Debug\Formula Cuadratica.csproj.SuggestedBindingRedirects.cache
+D:\Visual Studio\Formula Cuadratica\obj\Debug\Formula_Cuadratica.Form1.resources
+D:\Visual Studio\Formula Cuadratica\obj\Debug\Formula_Cuadratica.Properties.Resources.resources
+D:\Visual Studio\Formula Cuadratica\obj\Debug\Formula Cuadratica.csproj.GenerateResource.cache
+D:\Visual Studio\Formula Cuadratica\obj\Debug\Formula Cuadratica.csproj.CoreCompileInputs.cache
+D:\Visual Studio\Formula Cuadratica\obj\Debug\Formula Cuadratica.exe
+D:\Visual Studio\Formula Cuadratica\obj\Debug\Formula Cuadratica.pdb

@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "c9a2dbfe-f1f6-4d48-9199-a014902ef34b": {
+      "ProjectGuid": "c9a2dbfe-f1f6-4d48-9199-a014902ef34b",
+      "DisplayName": "PROGRAMA8",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Archivos varios",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

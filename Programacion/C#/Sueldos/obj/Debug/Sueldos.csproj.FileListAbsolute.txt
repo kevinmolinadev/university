@@ -1,0 +1,22 @@
+C:\Users\T102-01\source\repos\Sueldos\bin\Debug\Sueldos.exe.config
+C:\Users\T102-01\source\repos\Sueldos\bin\Debug\Sueldos.exe
+C:\Users\T102-01\source\repos\Sueldos\bin\Debug\Sueldos.pdb
+C:\Users\T102-01\source\repos\Sueldos\obj\Debug\Sueldos.csproj.AssemblyReference.cache
+C:\Users\T102-01\source\repos\Sueldos\obj\Debug\Sueldos.csproj.SuggestedBindingRedirects.cache
+C:\Users\T102-01\source\repos\Sueldos\obj\Debug\Sueldos.Form1.resources
+C:\Users\T102-01\source\repos\Sueldos\obj\Debug\Sueldos.Properties.Resources.resources
+C:\Users\T102-01\source\repos\Sueldos\obj\Debug\Sueldos.csproj.GenerateResource.cache
+C:\Users\T102-01\source\repos\Sueldos\obj\Debug\Sueldos.csproj.CoreCompileInputs.cache
+C:\Users\T102-01\source\repos\Sueldos\obj\Debug\Sueldos.exe
+C:\Users\T102-01\source\repos\Sueldos\obj\Debug\Sueldos.pdb
+D:\Visual Studio\Sueldos\bin\Debug\Sueldos.exe.config
+D:\Visual Studio\Sueldos\bin\Debug\Sueldos.exe
+D:\Visual Studio\Sueldos\bin\Debug\Sueldos.pdb
+D:\Visual Studio\Sueldos\obj\Debug\Sueldos.csproj.AssemblyReference.cache
+D:\Visual Studio\Sueldos\obj\Debug\Sueldos.csproj.SuggestedBindingRedirects.cache
+D:\Visual Studio\Sueldos\obj\Debug\Sueldos.Form1.resources
+D:\Visual Studio\Sueldos\obj\Debug\Sueldos.Properties.Resources.resources
+D:\Visual Studio\Sueldos\obj\Debug\Sueldos.csproj.GenerateResource.cache
+D:\Visual Studio\Sueldos\obj\Debug\Sueldos.csproj.CoreCompileInputs.cache
+D:\Visual Studio\Sueldos\obj\Debug\Sueldos.exe
+D:\Visual Studio\Sueldos\obj\Debug\Sueldos.pdb

@@ -1,0 +1,22 @@
+C:\Users\T101-01\source\repos\ghsef\bin\Debug\ghsef.exe.config
+C:\Users\T101-01\source\repos\ghsef\bin\Debug\ghsef.exe
+C:\Users\T101-01\source\repos\ghsef\bin\Debug\ghsef.pdb
+C:\Users\T101-01\source\repos\ghsef\obj\Debug\ghsef.csproj.AssemblyReference.cache
+C:\Users\T101-01\source\repos\ghsef\obj\Debug\ghsef.csproj.SuggestedBindingRedirects.cache
+C:\Users\T101-01\source\repos\ghsef\obj\Debug\ghsef.Form1.resources
+C:\Users\T101-01\source\repos\ghsef\obj\Debug\ghsef.Properties.Resources.resources
+C:\Users\T101-01\source\repos\ghsef\obj\Debug\ghsef.csproj.GenerateResource.cache
+C:\Users\T101-01\source\repos\ghsef\obj\Debug\ghsef.csproj.CoreCompileInputs.cache
+C:\Users\T101-01\source\repos\ghsef\obj\Debug\ghsef.exe
+C:\Users\T101-01\source\repos\ghsef\obj\Debug\ghsef.pdb
+D:\Visual Studio\Pc\POO clase 1\bin\Debug\ghsef.exe.config
+D:\Visual Studio\Pc\POO clase 1\bin\Debug\ghsef.exe
+D:\Visual Studio\Pc\POO clase 1\bin\Debug\ghsef.pdb
+D:\Visual Studio\Pc\POO clase 1\obj\Debug\ghsef.csproj.AssemblyReference.cache
+D:\Visual Studio\Pc\POO clase 1\obj\Debug\ghsef.csproj.SuggestedBindingRedirects.cache
+D:\Visual Studio\Pc\POO clase 1\obj\Debug\ghsef.Form1.resources
+D:\Visual Studio\Pc\POO clase 1\obj\Debug\ghsef.Properties.Resources.resources
+D:\Visual Studio\Pc\POO clase 1\obj\Debug\ghsef.csproj.GenerateResource.cache
+D:\Visual Studio\Pc\POO clase 1\obj\Debug\ghsef.csproj.CoreCompileInputs.cache
+D:\Visual Studio\Pc\POO clase 1\obj\Debug\ghsef.exe
+D:\Visual Studio\Pc\POO clase 1\obj\Debug\ghsef.pdb

@@ -1,0 +1,11 @@
+D:\Visual Studio\CDA\bin\Debug\CDA.exe.config
+D:\Visual Studio\CDA\bin\Debug\CDA.exe
+D:\Visual Studio\CDA\bin\Debug\CDA.pdb
+D:\Visual Studio\CDA\obj\Debug\CDA.csproj.AssemblyReference.cache
+D:\Visual Studio\CDA\obj\Debug\CDA.csproj.SuggestedBindingRedirects.cache
+D:\Visual Studio\CDA\obj\Debug\CDA.Form1.resources
+D:\Visual Studio\CDA\obj\Debug\CDA.Properties.Resources.resources
+D:\Visual Studio\CDA\obj\Debug\CDA.csproj.GenerateResource.cache
+D:\Visual Studio\CDA\obj\Debug\CDA.csproj.CoreCompileInputs.cache
+D:\Visual Studio\CDA\obj\Debug\CDA.exe
+D:\Visual Studio\CDA\obj\Debug\CDA.pdb

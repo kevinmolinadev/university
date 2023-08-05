@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "e200fb45-1e21-4dbd-85e7-09d8ebb80a41": {
+      "ProjectGuid": "e200fb45-1e21-4dbd-85e7-09d8ebb80a41",
+      "DisplayName": "Problemas propuestos",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Archivos varios",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

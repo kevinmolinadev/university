@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "cc91d65b-313c-4d26-b7a2-32dba47e4169": {
+      "ProjectGuid": "cc91d65b-313c-4d26-b7a2-32dba47e4169",
+      "DisplayName": "WindowsFormsApp1",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

@@ -1,0 +1,11 @@
+D:\Visual Studio\Pc\ProyectoPersonal\bin\Debug\ProyectoPersonal.exe.config
+D:\Visual Studio\Pc\ProyectoPersonal\bin\Debug\ProyectoPersonal.exe
+D:\Visual Studio\Pc\ProyectoPersonal\bin\Debug\ProyectoPersonal.pdb
+D:\Visual Studio\Pc\ProyectoPersonal\obj\Debug\ProyectoPersonal.csproj.AssemblyReference.cache
+D:\Visual Studio\Pc\ProyectoPersonal\obj\Debug\ProyectoPersonal.csproj.SuggestedBindingRedirects.cache
+D:\Visual Studio\Pc\ProyectoPersonal\obj\Debug\ProyectoPersonal.Form1.resources
+D:\Visual Studio\Pc\ProyectoPersonal\obj\Debug\ProyectoPersonal.Properties.Resources.resources
+D:\Visual Studio\Pc\ProyectoPersonal\obj\Debug\ProyectoPersonal.csproj.GenerateResource.cache
+D:\Visual Studio\Pc\ProyectoPersonal\obj\Debug\ProyectoPersonal.csproj.CoreCompileInputs.cache
+D:\Visual Studio\Pc\ProyectoPersonal\obj\Debug\ProyectoPersonal.exe
+D:\Visual Studio\Pc\ProyectoPersonal\obj\Debug\ProyectoPersonal.pdb

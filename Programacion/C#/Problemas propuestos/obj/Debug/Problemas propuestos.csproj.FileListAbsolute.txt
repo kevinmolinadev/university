@@ -1,0 +1,11 @@
+D:\Visual Studio\Pc\Problemas propuestos\bin\Debug\Problemas propuestos.exe.config
+D:\Visual Studio\Pc\Problemas propuestos\bin\Debug\Problemas propuestos.exe
+D:\Visual Studio\Pc\Problemas propuestos\bin\Debug\Problemas propuestos.pdb
+D:\Visual Studio\Pc\Problemas propuestos\obj\Debug\Problemas propuestos.csproj.AssemblyReference.cache
+D:\Visual Studio\Pc\Problemas propuestos\obj\Debug\Problemas propuestos.csproj.SuggestedBindingRedirects.cache
+D:\Visual Studio\Pc\Problemas propuestos\obj\Debug\Problemas_propuestos.Form1.resources
+D:\Visual Studio\Pc\Problemas propuestos\obj\Debug\Problemas_propuestos.Properties.Resources.resources
+D:\Visual Studio\Pc\Problemas propuestos\obj\Debug\Problemas propuestos.csproj.GenerateResource.cache
+D:\Visual Studio\Pc\Problemas propuestos\obj\Debug\Problemas propuestos.csproj.CoreCompileInputs.cache
+D:\Visual Studio\Pc\Problemas propuestos\obj\Debug\Problemas propuestos.exe
+D:\Visual Studio\Pc\Problemas propuestos\obj\Debug\Problemas propuestos.pdb

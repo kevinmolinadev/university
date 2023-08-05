@@ -1,0 +1,11 @@
+D:\Visual Studio\PROGRAMA6\bin\Debug\PROGRAMA6.exe.config
+D:\Visual Studio\PROGRAMA6\bin\Debug\PROGRAMA6.exe
+D:\Visual Studio\PROGRAMA6\bin\Debug\PROGRAMA6.pdb
+D:\Visual Studio\PROGRAMA6\obj\Debug\PROGRAMA6.csproj.AssemblyReference.cache
+D:\Visual Studio\PROGRAMA6\obj\Debug\PROGRAMA6.csproj.SuggestedBindingRedirects.cache
+D:\Visual Studio\PROGRAMA6\obj\Debug\PROGRAMA6.Form1.resources
+D:\Visual Studio\PROGRAMA6\obj\Debug\PROGRAMA6.Properties.Resources.resources
+D:\Visual Studio\PROGRAMA6\obj\Debug\PROGRAMA6.csproj.GenerateResource.cache
+D:\Visual Studio\PROGRAMA6\obj\Debug\PROGRAMA6.csproj.CoreCompileInputs.cache
+D:\Visual Studio\PROGRAMA6\obj\Debug\PROGRAMA6.exe
+D:\Visual Studio\PROGRAMA6\obj\Debug\PROGRAMA6.pdb

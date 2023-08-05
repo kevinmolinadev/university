@@ -1,0 +1,11 @@
+D:\Visual Studio\PROGRAMA4\obj\Debug\PROGRAMA4.csproj.AssemblyReference.cache
+D:\Visual Studio\PROGRAMA4\obj\Debug\PROGRAMA4.csproj.SuggestedBindingRedirects.cache
+D:\Visual Studio\PROGRAMA4\obj\Debug\PROGRAMA4.Form1.resources
+D:\Visual Studio\PROGRAMA4\obj\Debug\PROGRAMA4.Properties.Resources.resources
+D:\Visual Studio\PROGRAMA4\obj\Debug\PROGRAMA4.csproj.GenerateResource.cache
+D:\Visual Studio\PROGRAMA4\obj\Debug\PROGRAMA4.csproj.CoreCompileInputs.cache
+D:\Visual Studio\PROGRAMA4\bin\Debug\PROGRAMA4.exe.config
+D:\Visual Studio\PROGRAMA4\bin\Debug\PROGRAMA4.exe
+D:\Visual Studio\PROGRAMA4\bin\Debug\PROGRAMA4.pdb
+D:\Visual Studio\PROGRAMA4\obj\Debug\PROGRAMA4.exe
+D:\Visual Studio\PROGRAMA4\obj\Debug\PROGRAMA4.pdb

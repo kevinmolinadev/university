@@ -1,0 +1,11 @@
+D:\Visual Studio\PRYECTO CALCULADORA\bin\Debug\PRYECTO CALCULADORA.exe.config
+D:\Visual Studio\PRYECTO CALCULADORA\bin\Debug\PRYECTO CALCULADORA.exe
+D:\Visual Studio\PRYECTO CALCULADORA\bin\Debug\PRYECTO CALCULADORA.pdb
+D:\Visual Studio\PRYECTO CALCULADORA\obj\Debug\PRYECTO CALCULADORA.csproj.AssemblyReference.cache
+D:\Visual Studio\PRYECTO CALCULADORA\obj\Debug\PRYECTO CALCULADORA.csproj.SuggestedBindingRedirects.cache
+D:\Visual Studio\PRYECTO CALCULADORA\obj\Debug\PRYECTO_CALCULADORA.Form1.resources
+D:\Visual Studio\PRYECTO CALCULADORA\obj\Debug\PRYECTO_CALCULADORA.Properties.Resources.resources
+D:\Visual Studio\PRYECTO CALCULADORA\obj\Debug\PRYECTO CALCULADORA.csproj.GenerateResource.cache
+D:\Visual Studio\PRYECTO CALCULADORA\obj\Debug\PRYECTO CALCULADORA.csproj.CoreCompileInputs.cache
+D:\Visual Studio\PRYECTO CALCULADORA\obj\Debug\PRYECTO CALCULADORA.exe
+D:\Visual Studio\PRYECTO CALCULADORA\obj\Debug\PRYECTO CALCULADORA.pdb

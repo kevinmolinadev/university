@@ -1,0 +1,11 @@
+D:\Visual Studio\N sueldos\bin\Debug\N sueldos.exe.config
+D:\Visual Studio\N sueldos\bin\Debug\N sueldos.exe
+D:\Visual Studio\N sueldos\bin\Debug\N sueldos.pdb
+D:\Visual Studio\N sueldos\obj\Debug\N sueldos.csproj.AssemblyReference.cache
+D:\Visual Studio\N sueldos\obj\Debug\N sueldos.csproj.SuggestedBindingRedirects.cache
+D:\Visual Studio\N sueldos\obj\Debug\N_sueldos.Form1.resources
+D:\Visual Studio\N sueldos\obj\Debug\N_sueldos.Properties.Resources.resources
+D:\Visual Studio\N sueldos\obj\Debug\N sueldos.csproj.GenerateResource.cache
+D:\Visual Studio\N sueldos\obj\Debug\N sueldos.csproj.CoreCompileInputs.cache
+D:\Visual Studio\N sueldos\obj\Debug\N sueldos.exe
+D:\Visual Studio\N sueldos\obj\Debug\N sueldos.pdb

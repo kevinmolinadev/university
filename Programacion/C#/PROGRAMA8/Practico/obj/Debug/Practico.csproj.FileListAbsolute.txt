@@ -1,0 +1,11 @@
+D:\Programacion I\Practico\obj\Debug\Practico.csproj.AssemblyReference.cache
+D:\Programacion I\Practico\obj\Debug\Practico.csproj.SuggestedBindingRedirects.cache
+D:\Programacion I\Practico\obj\Debug\Practico.Form1.resources
+D:\Programacion I\Practico\obj\Debug\Practico.Properties.Resources.resources
+D:\Programacion I\Practico\obj\Debug\Practico.csproj.GenerateResource.cache
+D:\Programacion I\Practico\obj\Debug\Practico.csproj.CoreCompileInputs.cache
+D:\Programacion I\Practico\bin\Debug\Practico.exe.config
+D:\Programacion I\Practico\bin\Debug\Practico.exe
+D:\Programacion I\Practico\bin\Debug\Practico.pdb
+D:\Programacion I\Practico\obj\Debug\Practico.exe
+D:\Programacion I\Practico\obj\Debug\Practico.pdb
