@@ -1,0 +1,15 @@
+select*from Tutor;
+select*from Estudiante;
+select*from Sesion_Academica;
+select*from Asistencia;
+select*from departamento;
+select*from virtual;
+select*from Presencial;
+select*from curso;
+select*from Detalle_Curso_estudiante;
+select*from Docente;
+select*from Detalle_curso_docente;
+select*from detalle_login_docente;
+select*from Tipo_Examen;
+select*from Examen;
+select*from Resultado_Examen;

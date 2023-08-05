@@ -1,0 +1,42 @@
+
+import os
+ABC={}
+abecedario = 'abcdefghijklmnñopqrstuvwxyz'
+m=0
+Cantidad_letras=''
+def leer(linea,archivo):
+    global m,l
+    name= abecedario.index(linea[1])
+    if(m == name):
+        l=l+1
+        salida = open(f"{name}-{l}.fasta",'w')
+        ABC.update({linea[1]:l})
+    
+    else:
+        l=0
+        salida = open(f"{name}-{l}.fasta",'w')
+        m=name
+        ABC.setdefault(linea[1],0)
+
+    salida.write(f"{linea}")
+    for linea2 in archivo:
+        if linea2[0] != '>':
+            salida.write(f"{linea2}")
+        else:
+            salida.close()
+            leer(linea2,archivo)
+                   
+with open("Practica/text.fasta",'r') as archivo_lectura:
+    for linea in archivo_lectura:    
+        leer(linea,archivo_lectura)
+
+salida = open(f"resultado.fasta",'w')
+p=sorted(ABC)
+for j in p:
+    n=abecedario.index(j)
+    for i in range(0,ABC.get(j)+1,1):
+        with open(f"{n}-{i}.fasta",'r') as lectura:
+            for linea in lectura:
+                salida.write(linea)
+        os.remove(f'{n}-{i}.fasta')
+salida.close()
