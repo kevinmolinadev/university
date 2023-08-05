@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>GET/POST</title>
+</head>
+
+<body onload="inicio()">
+    <div class="contenedor">
+        <div onclick="producto('informacionCafetera')" id="cafetera"></div>
+        <div onclick="producto('informacionPurificador')" id="purificador"></div>
+        <div onclick="producto('informacionRobot')" id="robot"></div>
+    </div>
+    <script>
+        function inicio() {
+            cafetera();
+            purificador();
+            robot();
+        }
+        const cafetera = () => {
+            const http = new XMLHttpRequest();
+            const url = "http://localhost/ajax/productos/cafetera.html"
+            http.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    console.log(http.responseText);
+                    const res = document.getElementById("cafetera");
+                    res.innerHTML = http.response;
+                }
+            }
+            http.open("GET", url);
+            http.send();
+        }
+        const purificador = () => {
+            const http = new XMLHttpRequest();
+            const url = "http://localhost/ajax/productos/purificador.html"
+            http.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    console.log(http.responseText);
+                    const res = document.getElementById("purificador");
+                    res.innerHTML = http.response;
+                }
+            }
+            http.open("GET", url);
+            http.send();
+        }
+        const robot = () => {
+            const http = new XMLHttpRequest();
+            const url = "http://localhost/ajax/productos/robot.html"
+            http.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    console.log(http.responseText);
+                    const res = document.getElementById("robot");
+                    res.innerHTML = http.response;
+                }
+            }
+            http.open("GET", url);
+            http.send();
+        }
+        const producto = (p) => {
+            document.getElementById(p).classList.remove('oculto');
+            document.querySelectorAll('.card_img').forEach((e) => {
+                    e.style.transition = 'none';
+                    e.style.cssText = e.style.cssText.replace(':hover', '');
+                    e.style.setProperty('transform', 'none', 'important');
+            });
+
+        }
+
+    </script>
+</body>
+
+</html>

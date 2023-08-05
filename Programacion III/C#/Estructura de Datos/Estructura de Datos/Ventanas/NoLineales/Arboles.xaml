@@ -1,0 +1,26 @@
+﻿<Window x:Class="Estructura_de_Datos.Ventanas.NoLineales.Arboles"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Estructura_de_Datos.Ventanas.NoLineales"
+        mc:Ignorable="d"
+        Title="Arboles" Height="600" Width="1000">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Horizontal" Margin="10" Grid.Row="0">
+            <TextBlock Text="Número de nodos:" Margin="0 0 10 0"/>
+            <Label x:Name="NodeCountLabel" Content="10"/>
+            <Slider x:Name="NodeCountSlider" Minimum="1" Maximum="100" Value="10" TickFrequency="1" Width="150" Margin="10 0 0 0" ValueChanged="NodeCountSlider_ValueChanged_1"/>
+        </StackPanel>
+
+        <Button x:Name="GenerateTreeButton" Content="Generar árbol aleatorio" Margin="10" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Bottom" Click="GenerateTreeButton_Click"/>
+
+        <Canvas x:Name="canvas" Grid.Row="2" Height="Auto"/>
+    </Grid>
+</Window>

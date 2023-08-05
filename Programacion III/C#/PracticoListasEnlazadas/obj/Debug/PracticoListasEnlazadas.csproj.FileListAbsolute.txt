@@ -1,0 +1,48 @@
+C:\Universidad\UNIVALLE Ing. en Sistemas Informáticos\3er Semestre\Programación III\PracticoListasEnlazadas\PracticoListasEnlazadas\bin\Debug\PracticoListasEnlazadas.exe.config
+C:\Universidad\UNIVALLE Ing. en Sistemas Informáticos\3er Semestre\Programación III\PracticoListasEnlazadas\PracticoListasEnlazadas\bin\Debug\PracticoListasEnlazadas.exe
+C:\Universidad\UNIVALLE Ing. en Sistemas Informáticos\3er Semestre\Programación III\PracticoListasEnlazadas\PracticoListasEnlazadas\bin\Debug\PracticoListasEnlazadas.pdb
+C:\Universidad\UNIVALLE Ing. en Sistemas Informáticos\3er Semestre\Programación III\PracticoListasEnlazadas\PracticoListasEnlazadas\obj\Debug\PracticoListasEnlazadas.csproj.AssemblyReference.cache
+C:\Universidad\UNIVALLE Ing. en Sistemas Informáticos\3er Semestre\Programación III\PracticoListasEnlazadas\PracticoListasEnlazadas\obj\Debug\PracticoListasEnlazadas.csproj.SuggestedBindingRedirects.cache
+C:\Universidad\UNIVALLE Ing. en Sistemas Informáticos\3er Semestre\Programación III\PracticoListasEnlazadas\PracticoListasEnlazadas\obj\Debug\MainWindow.g.cs
+C:\Universidad\UNIVALLE Ing. en Sistemas Informáticos\3er Semestre\Programación III\PracticoListasEnlazadas\PracticoListasEnlazadas\obj\Debug\App.g.cs
+C:\Universidad\UNIVALLE Ing. en Sistemas Informáticos\3er Semestre\Programación III\PracticoListasEnlazadas\PracticoListasEnlazadas\obj\Debug\PracticoListasEnlazadas_MarkupCompile.cache
+C:\Universidad\UNIVALLE Ing. en Sistemas Informáticos\3er Semestre\Programación III\PracticoListasEnlazadas\PracticoListasEnlazadas\obj\Debug\PracticoListasEnlazadas_MarkupCompile.lref
+C:\Universidad\UNIVALLE Ing. en Sistemas Informáticos\3er Semestre\Programación III\PracticoListasEnlazadas\PracticoListasEnlazadas\obj\Debug\MainWindow.baml
+C:\Universidad\UNIVALLE Ing. en Sistemas Informáticos\3er Semestre\Programación III\PracticoListasEnlazadas\PracticoListasEnlazadas\obj\Debug\PracticoListasEnlazadas.g.resources
+C:\Universidad\UNIVALLE Ing. en Sistemas Informáticos\3er Semestre\Programación III\PracticoListasEnlazadas\PracticoListasEnlazadas\obj\Debug\PracticoListasEnlazadas.Properties.Resources.resources
+C:\Universidad\UNIVALLE Ing. en Sistemas Informáticos\3er Semestre\Programación III\PracticoListasEnlazadas\PracticoListasEnlazadas\obj\Debug\PracticoListasEnlazadas.csproj.GenerateResource.cache
+C:\Universidad\UNIVALLE Ing. en Sistemas Informáticos\3er Semestre\Programación III\PracticoListasEnlazadas\PracticoListasEnlazadas\obj\Debug\PracticoListasEnlazadas.csproj.CoreCompileInputs.cache
+C:\Universidad\UNIVALLE Ing. en Sistemas Informáticos\3er Semestre\Programación III\PracticoListasEnlazadas\PracticoListasEnlazadas\obj\Debug\PracticoListasEnlazadas.exe
+C:\Universidad\UNIVALLE Ing. en Sistemas Informáticos\3er Semestre\Programación III\PracticoListasEnlazadas\PracticoListasEnlazadas\obj\Debug\PracticoListasEnlazadas.pdb
+D:\Universidad\Semestre 3\PracticoListasEnlazadas\PracticoListasEnlazadas\obj\Debug\PracticoListasEnlazadas.csproj.AssemblyReference.cache
+D:\Universidad\Semestre 3\PracticoListasEnlazadas\PracticoListasEnlazadas\obj\Debug\PracticoListasEnlazadas.csproj.SuggestedBindingRedirects.cache
+D:\Universidad\Semestre 3\PracticoListasEnlazadas\PracticoListasEnlazadas\obj\Debug\MainWindow.g.cs
+D:\Universidad\Semestre 3\PracticoListasEnlazadas\PracticoListasEnlazadas\obj\Debug\App.g.cs
+D:\Universidad\Semestre 3\PracticoListasEnlazadas\PracticoListasEnlazadas\obj\Debug\PracticoListasEnlazadas_MarkupCompile.cache
+D:\Universidad\Semestre 3\PracticoListasEnlazadas\PracticoListasEnlazadas\obj\Debug\PracticoListasEnlazadas_MarkupCompile.lref
+D:\Universidad\Semestre 3\PracticoListasEnlazadas\PracticoListasEnlazadas\obj\Debug\PracticoListasEnlazadas.exe
+D:\Universidad\Semestre 3\PracticoListasEnlazadas\PracticoListasEnlazadas\obj\Debug\PracticoListasEnlazadas.pdb
+D:\Universidad\Semestre 3\PracticoListasEnlazadas\PracticoListasEnlazadas\bin\Debug\PracticoListasEnlazadas.exe.config
+D:\Universidad\Semestre 3\PracticoListasEnlazadas\PracticoListasEnlazadas\bin\Debug\PracticoListasEnlazadas.exe
+D:\Universidad\Semestre 3\PracticoListasEnlazadas\PracticoListasEnlazadas\bin\Debug\PracticoListasEnlazadas.pdb
+D:\Universidad\Semestre 3\PracticoListasEnlazadas\PracticoListasEnlazadas\obj\Debug\MainWindow.baml
+D:\Universidad\Semestre 3\PracticoListasEnlazadas\PracticoListasEnlazadas\obj\Debug\PracticoListasEnlazadas.g.resources
+D:\Universidad\Semestre 3\PracticoListasEnlazadas\PracticoListasEnlazadas\obj\Debug\PracticoListasEnlazadas.Properties.Resources.resources
+D:\Universidad\Semestre 3\PracticoListasEnlazadas\PracticoListasEnlazadas\obj\Debug\PracticoListasEnlazadas.csproj.GenerateResource.cache
+D:\Universidad\Semestre 3\PracticoListasEnlazadas\PracticoListasEnlazadas\obj\Debug\PracticoListasEnlazadas.csproj.CoreCompileInputs.cache
+C:\Universidad\UNIVALLE Ing. en Sistemas Informáticos\3er Semestre\Programación III\Practico # 1\PracticoListasEnlazadas\PracticoListasEnlazadas\obj\Debug\PracticoListasEnlazadas.csproj.AssemblyReference.cache
+C:\Universidad\UNIVALLE Ing. en Sistemas Informáticos\3er Semestre\Programación III\Practico # 1\PracticoListasEnlazadas\PracticoListasEnlazadas\obj\Debug\PracticoListasEnlazadas.csproj.SuggestedBindingRedirects.cache
+C:\Universidad\UNIVALLE Ing. en Sistemas Informáticos\3er Semestre\Programación III\Practico # 1\PracticoListasEnlazadas\PracticoListasEnlazadas\obj\Debug\MainWindow.g.cs
+C:\Universidad\UNIVALLE Ing. en Sistemas Informáticos\3er Semestre\Programación III\Practico # 1\PracticoListasEnlazadas\PracticoListasEnlazadas\obj\Debug\App.g.cs
+C:\Universidad\UNIVALLE Ing. en Sistemas Informáticos\3er Semestre\Programación III\Practico # 1\PracticoListasEnlazadas\PracticoListasEnlazadas\obj\Debug\PracticoListasEnlazadas_MarkupCompile.cache
+C:\Universidad\UNIVALLE Ing. en Sistemas Informáticos\3er Semestre\Programación III\Practico # 1\PracticoListasEnlazadas\PracticoListasEnlazadas\obj\Debug\PracticoListasEnlazadas_MarkupCompile.lref
+C:\Universidad\UNIVALLE Ing. en Sistemas Informáticos\3er Semestre\Programación III\Practico # 1\PracticoListasEnlazadas\PracticoListasEnlazadas\obj\Debug\PracticoListasEnlazadas.exe
+C:\Universidad\UNIVALLE Ing. en Sistemas Informáticos\3er Semestre\Programación III\Practico # 1\PracticoListasEnlazadas\PracticoListasEnlazadas\obj\Debug\PracticoListasEnlazadas.pdb
+C:\Universidad\UNIVALLE Ing. en Sistemas Informáticos\3er Semestre\Programación III\Practico # 1\PracticoListasEnlazadas\PracticoListasEnlazadas\bin\Debug\PracticoListasEnlazadas.exe.config
+C:\Universidad\UNIVALLE Ing. en Sistemas Informáticos\3er Semestre\Programación III\Practico # 1\PracticoListasEnlazadas\PracticoListasEnlazadas\bin\Debug\PracticoListasEnlazadas.exe
+C:\Universidad\UNIVALLE Ing. en Sistemas Informáticos\3er Semestre\Programación III\Practico # 1\PracticoListasEnlazadas\PracticoListasEnlazadas\bin\Debug\PracticoListasEnlazadas.pdb
+C:\Universidad\UNIVALLE Ing. en Sistemas Informáticos\3er Semestre\Programación III\Practico # 1\PracticoListasEnlazadas\PracticoListasEnlazadas\obj\Debug\MainWindow.baml
+C:\Universidad\UNIVALLE Ing. en Sistemas Informáticos\3er Semestre\Programación III\Practico # 1\PracticoListasEnlazadas\PracticoListasEnlazadas\obj\Debug\PracticoListasEnlazadas.g.resources
+C:\Universidad\UNIVALLE Ing. en Sistemas Informáticos\3er Semestre\Programación III\Practico # 1\PracticoListasEnlazadas\PracticoListasEnlazadas\obj\Debug\PracticoListasEnlazadas.Properties.Resources.resources
+C:\Universidad\UNIVALLE Ing. en Sistemas Informáticos\3er Semestre\Programación III\Practico # 1\PracticoListasEnlazadas\PracticoListasEnlazadas\obj\Debug\PracticoListasEnlazadas.csproj.GenerateResource.cache
+C:\Universidad\UNIVALLE Ing. en Sistemas Informáticos\3er Semestre\Programación III\Practico # 1\PracticoListasEnlazadas\PracticoListasEnlazadas\obj\Debug\PracticoListasEnlazadas.csproj.CoreCompileInputs.cache

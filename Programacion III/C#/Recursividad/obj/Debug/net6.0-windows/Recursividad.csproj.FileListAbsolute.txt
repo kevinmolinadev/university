@@ -1,0 +1,26 @@
+C:\Universidad\UNIVALLE Ing. en Sistemas Informáticos\3er Semestre\Programación III\Recursividad\obj\Debug\net6.0-windows\Recursividad.csproj.AssemblyReference.cache
+C:\Universidad\UNIVALLE Ing. en Sistemas Informáticos\3er Semestre\Programación III\Recursividad\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Universidad\UNIVALLE Ing. en Sistemas Informáticos\3er Semestre\Programación III\Recursividad\obj\Debug\net6.0-windows\App.g.cs
+C:\Universidad\UNIVALLE Ing. en Sistemas Informáticos\3er Semestre\Programación III\Recursividad\obj\Debug\net6.0-windows\Recursividad_MarkupCompile.cache
+C:\Universidad\UNIVALLE Ing. en Sistemas Informáticos\3er Semestre\Programación III\Recursividad\obj\Debug\net6.0-windows\Recursividad_MarkupCompile.lref
+C:\Users\Kevin\Documents\C#\Recursividad\obj\Debug\net6.0-windows\Recursividad.csproj.AssemblyReference.cache
+C:\Users\Kevin\Documents\C#\Recursividad\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Kevin\Documents\C#\Recursividad\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Kevin\Documents\C#\Recursividad\obj\Debug\net6.0-windows\Recursividad_MarkupCompile.cache
+C:\Users\Kevin\Documents\C#\Recursividad\obj\Debug\net6.0-windows\Recursividad_MarkupCompile.lref
+C:\Users\Kevin\Documents\C#\Recursividad\bin\Debug\net6.0-windows\Recursividad.exe
+C:\Users\Kevin\Documents\C#\Recursividad\bin\Debug\net6.0-windows\Recursividad.deps.json
+C:\Users\Kevin\Documents\C#\Recursividad\bin\Debug\net6.0-windows\Recursividad.runtimeconfig.json
+C:\Users\Kevin\Documents\C#\Recursividad\bin\Debug\net6.0-windows\Recursividad.dll
+C:\Users\Kevin\Documents\C#\Recursividad\bin\Debug\net6.0-windows\Recursividad.pdb
+C:\Users\Kevin\Documents\C#\Recursividad\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\Kevin\Documents\C#\Recursividad\obj\Debug\net6.0-windows\Recursividad.g.resources
+C:\Users\Kevin\Documents\C#\Recursividad\obj\Debug\net6.0-windows\Recursividad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kevin\Documents\C#\Recursividad\obj\Debug\net6.0-windows\Recursividad.AssemblyInfoInputs.cache
+C:\Users\Kevin\Documents\C#\Recursividad\obj\Debug\net6.0-windows\Recursividad.AssemblyInfo.cs
+C:\Users\Kevin\Documents\C#\Recursividad\obj\Debug\net6.0-windows\Recursividad.csproj.CoreCompileInputs.cache
+C:\Users\Kevin\Documents\C#\Recursividad\obj\Debug\net6.0-windows\Recursividad.dll
+C:\Users\Kevin\Documents\C#\Recursividad\obj\Debug\net6.0-windows\refint\Recursividad.dll
+C:\Users\Kevin\Documents\C#\Recursividad\obj\Debug\net6.0-windows\Recursividad.pdb
+C:\Users\Kevin\Documents\C#\Recursividad\obj\Debug\net6.0-windows\Recursividad.genruntimeconfig.cache
+C:\Users\Kevin\Documents\C#\Recursividad\obj\Debug\net6.0-windows\ref\Recursividad.dll
