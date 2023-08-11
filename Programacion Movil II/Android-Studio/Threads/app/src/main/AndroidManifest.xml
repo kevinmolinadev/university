@@ -13,6 +13,15 @@
         android:theme="@style/Theme.Threads"
         tools:targetApi="31">
         <activity
+            android:name=".Hours_RaceActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".Callables_and_FuturesActivity"
             android:exported="true">
             <intent-filter>
