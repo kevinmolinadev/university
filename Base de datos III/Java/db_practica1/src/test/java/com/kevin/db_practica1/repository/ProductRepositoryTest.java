@@ -14,7 +14,6 @@ import static org.junit.jupiter.api.Assertions.*;
 class ProductRepositoryTest {
     @Autowired //Aqui estamos inyectando a la interface  que tiene implementado los metodos que necesitamos
     private ProductRepository productRepository;
-
     //Pruebas unitarias de los procesos CRUD
     @Test
     void saveProduct() {
@@ -71,7 +70,35 @@ class ProductRepositoryTest {
     void findAllProduct() {
         List<Product> products = productRepository.findAll();
         products.forEach(product -> {
-            System.out.println(product.getName());
+            System.out.println(product.getId()+" -> "+product.getName());
         });
+    }
+
+    @Test
+    void deleteProductById() {
+        long id  = 2L;
+        productRepository.deleteById(id);
+    }
+
+    @Test
+    void deleteProduct() {
+        // encontrar el registro a eliminar
+        long id = 3L;
+        Product product = productRepository.findById(id).get();
+        //Eliminar
+        productRepository.delete(product);
+
+    }
+
+    @Test
+    void deleteAllProduct() {
+        //Eliminar todos los registros
+        //productRepository.deleteAll();
+
+        //Eliminar registros especificos
+        Product product1 = productRepository.findById(2L).get();
+        Product product2 = productRepository.findById(3L).get();
+
+        productRepository.deleteAll(List.of(product1,product2));
     }
 }
