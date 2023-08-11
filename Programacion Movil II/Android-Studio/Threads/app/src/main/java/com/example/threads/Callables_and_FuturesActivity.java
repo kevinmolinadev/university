@@ -44,7 +44,8 @@ public class Callables_and_FuturesActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 int number = Integer.parseInt(numberEditText.getText().toString());
-                Recursividad factorial = new Recursividad(number);
+                Recursividad factorial = new Recursividad();
+                factorial.setNumber(number);
                 ExecutorService executorService = Executors.newSingleThreadExecutor();
                 Future<Recursividad.Funtions> futureResult = executorService.submit(factorial);
                 executorService.shutdown();
@@ -57,7 +58,8 @@ public class Callables_and_FuturesActivity extends AppCompatActivity {
             public void onClick(View view) {
                 int number=Integer.parseInt(numberEditText2.getText().toString());
                 int numberTwo=Integer.parseInt(numberEditText3.getText().toString());
-                Recursividad exponentation=new Recursividad(number);
+                Recursividad exponentation=new Recursividad();
+                exponentation.setNumber(number);
                 exponentation.setNumberTwo(numberTwo);
                 ExecutorService executorService = Executors.newSingleThreadExecutor();
                 Future<Recursividad.Funtions> futureResult = executorService.submit(exponentation);

@@ -6,10 +6,6 @@ public class Recursividad implements Callable<Recursividad.Funtions> {
     private int number;
     private int numberTwo;
 
-    public Recursividad(int number) {
-        this.number = number;
-    }
-
     public int getNumber() {
         return number;
     }
