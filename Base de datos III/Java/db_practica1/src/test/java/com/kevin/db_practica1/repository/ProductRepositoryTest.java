@@ -6,7 +6,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import java.math.BigDecimal;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -46,23 +48,39 @@ class ProductRepositoryTest {
     @Test
     void saveAllProducts() {
         //creamos un producto
-        Product product = new Product();
-        product.setName("Producto Ejemplo 2");
-        product.setSku("SKU345");
-        product.setDescription("Esta es una descripción de ejemplo 2");
-        product.setPrice(new BigDecimal(150));
-        product.setActive(true);
-        product.setUrlImage("https://ejemplo.com/imagen2.jpg");
+        //Product product = new Product();
+        //product.setName("Producto Ejemplo 2");
+        //product.setSku("SKU345");
+        //product.setDescription("Esta es una descripción de ejemplo 2");
+        //product.setPrice(new BigDecimal(150));
+        //product.setActive(true);
+        //product.setUrlImage("https://ejemplo.com/imagen2.jpg");
         //creamos un producto
-        Product product2 = new Product();
-        product2.setName("Producto Ejemplo 3");
-        product2.setSku("SKU456");
-        product2.setDescription("Esta es una descripción de ejemplo 3");
-        product2.setPrice(new BigDecimal(145));
-        product2.setActive(true);
-        product2.setUrlImage("https://ejemplo.com/imagen3.jpg");
+        //Product product2 = new Product();
+        //product2.setName("Producto Ejemplo 3");
+        //product2.setSku("SKU456");
+        //product2.setDescription("Esta es una descripción de ejemplo 3");
+        //product2.setPrice(new BigDecimal(145));
+        //product2.setActive(true);
+        //product2.setUrlImage("https://ejemplo.com/imagen3.jpg");
 
-        productRepository.saveAll(List.of(product,product2));
+        //productRepository.saveAll(List.of(product,product2));
+
+        List<Product> products = new ArrayList<>();
+
+        Random random=new Random();
+        for (int i = 41; i <= 50; i++) {
+            Product product = new Product();
+            product.setName("Producto Ejemplo " + i);
+            product.setSku("SKU" + (1000 + i));
+            product.setDescription("Esta es una descripción de ejemplo " + i);
+            product.setPrice(new BigDecimal(random.nextInt(500) + 1));
+            product.setActive(true);
+            product.setUrlImage("https://ejemplo.com/imagen" + i + ".jpg");
+            products.add(product);
+        }
+
+        productRepository.saveAll(products);
 
     }
 
