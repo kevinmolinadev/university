@@ -9,6 +9,34 @@ import java.math.BigDecimal;
 import java.time.LocalDateTime;
 @Getter @Setter @AllArgsConstructor @NoArgsConstructor @ToString
 @Entity
+//Usando consultas con NameQuery
+//@NamedQuery(
+//        name = "Product.findByPrice",
+//        query = "SELECT p from Product p where p.price =: price"
+//)
+//@NamedQuery(
+//        name = "Product.findAllOrderByNameDesc",
+//        query = "SELECT p from Product p order by p.name desc"
+//)
+//Uso de NamedQueries
+@NamedQueries({
+        @NamedQuery(
+                name = "Product.findByPrice",
+                query = "SELECT p FROM Product p WHERE p.price = :price"
+        ),
+        @NamedQuery(
+                name = "Product.findAllOrderByNameDesc",
+                query = "SELECT p FROM Product p ORDER BY p.name DESC"
+        ),
+        @NamedQuery(
+                name = "Product.findByDescription",
+                query = "SELECT p FROM Product p WHERE p.description = :description"
+        ),
+        @NamedQuery(
+                name = "Product.findAllOrderByNameASC",
+                query = "SELECT p FROM Product p ORDER BY p.name ASC"
+        )
+})
 @Table(
         name="products",
         schema = "practica1",
