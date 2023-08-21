@@ -7,7 +7,8 @@ import org.hibernate.annotations.UpdateTimestamp;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
-@Getter @Setter @AllArgsConstructor @NoArgsConstructor @ToString
+//@Getter @Setter @AllArgsConstructor @NoArgsConstructor @ToString
+@Data
 @Entity
 //Usando consultas con NameQuery
 //@NamedQuery(
