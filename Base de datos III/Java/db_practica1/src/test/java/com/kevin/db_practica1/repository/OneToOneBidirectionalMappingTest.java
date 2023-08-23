@@ -1,6 +1,6 @@
 package com.kevin.db_practica1.repository;
 
-import com.kevin.db_practica1.entity.Adress;
+import com.kevin.db_practica1.entity.Address;
 import com.kevin.db_practica1.entity.Order;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,24 +21,24 @@ public class OneToOneBidirectionalMappingTest {
         order.setStatus("En espera");
         order.setTotalPrice(new BigDecimal(1200));
 
-        Adress adress= new Adress();
-        adress.setCity("Cochabamba");
-        adress.setStreet("Laguna");
-        adress.setStreet("BF 45");
-        adress.setState("Activo");
-        adress.setCountry("Bolivia");
-        adress.setZipCode("0000");
+        Address address = new Address();
+        address.setCity("Cochabamba");
+        address.setStreet("Laguna");
+        address.setStreet("BF 45");
+        address.setState("Activo");
+        address.setCountry("Bolivia");
+        address.setZipCode("0000");
 
-        order.setBillingAddress(adress);
-        adress.setOrder(order);
-        addressRepository.save(adress);
+        order.setBillingAddress(address);
+        address.setOrder(order);
+        addressRepository.save(address);
     }
     @Test
     void updateAddress() {
-        Adress adress=addressRepository.findById(2L).get();
-        adress.setStreet("ACCD 45");
-        adress.getOrder().setStatus("Entregado");
-        addressRepository.save(adress);
+        Address address =addressRepository.findById(2L).get();
+        address.setStreet("ACCD 45");
+        address.getOrder().setStatus("Entregado");
+        addressRepository.save(address);
     }
 
 

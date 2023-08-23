@@ -1,6 +1,6 @@
 package com.kevin.db_practica1.repository;
 
-import com.kevin.db_practica1.entity.Adress;
+import com.kevin.db_practica1.entity.Address;
 import com.kevin.db_practica1.entity.Order;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,15 +21,15 @@ public class OneToOneUniderectionalMappingTest {
         order.setStatus("En proceso");
         order.setTotalPrice(new BigDecimal(1000));
 
-        Adress adress= new Adress();
-        adress.setCity("Santa Cruz");
-        adress.setStreet("Manso Perez");
-        adress.setStreet("Si?");
-        adress.setState("Activo");
-        adress.setCountry("Bolivia");
-        adress.setZipCode("0000");
+        Address address = new Address();
+        address.setCity("Santa Cruz");
+        address.setStreet("Manso Perez");
+        address.setStreet("Si?");
+        address.setState("Activo");
+        address.setCountry("Bolivia");
+        address.setZipCode("0000");
 
-        order.setBillingAddress(adress);
+        order.setBillingAddress(address);
         orderRepository.save(order);
 
     }
