@@ -26,8 +26,8 @@ public class BroadcastReceiverActivity extends AppCompatActivity {
         setContentView(R.layout.activity_broadcast_receiver);
         textView=findViewById(R.id.textView);
         if (customBroadcastReceiver == null) {
-            customBroadcastReceiver = new CustomBroadcastReceiver(textView);
-            IntentFilter intentFilter = new IntentFilter(CONNECTION);
+            customBroadcastReceiver = new CustomBroadcastReceiver(textView,CONNECTION[0]);
+            IntentFilter intentFilter = new IntentFilter(CONNECTION[0]);
             registerReceiver(customBroadcastReceiver, intentFilter);
         }
     }
@@ -36,4 +36,9 @@ public class BroadcastReceiverActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        unregisterReceiver(customBroadcastReceiver);
+    }
 }

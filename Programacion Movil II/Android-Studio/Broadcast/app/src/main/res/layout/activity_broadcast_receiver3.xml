@@ -20,7 +20,23 @@
             android:text="Pantalla C" />
 
         <EditText
-            android:id="@+id/editTextText2"
+            android:id="@+id/editTextTextPM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginVertical="30dp"
+            android:inputType="text"
+            android:text="Name" />
+        <EditText
+            android:id="@+id/editTextTextP1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginVertical="30dp"
+            android:inputType="text"
+            android:text="Name" />
+        <EditText
+            android:id="@+id/editTextTextP2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
