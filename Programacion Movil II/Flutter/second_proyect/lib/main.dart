@@ -17,3 +17,18 @@ class MyApp extends StatelessWidget{
     );
   }
 }
+
+/* class TaskListScreem extends StatelessWidget{
+    @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: ListView(
+        children: [
+          TaskList(),
+          TaskList(),
+          TaskList()
+        ],
+      ),
+    );
+  }
+} */
