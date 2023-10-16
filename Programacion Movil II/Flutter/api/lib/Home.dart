@@ -1,10 +1,9 @@
+import 'package:api/game_of_thrones.dart';
 import 'package:flutter/material.dart';
 import 'package:api/Api1.dart';
 import 'package:api/users.dart';
 import 'package:api/DetailPokemon.dart';
 import 'package:api/PokemonList.dart';
-import 'package:http/http.dart' as http;
-import 'dart:convert' as convert;
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title});
@@ -21,14 +20,14 @@ class _MyHomePageState extends State<MyHomePage> {
   void goSimpleAPI() {
     Navigator.push(
       context,
-      MaterialPageRoute(builder: (context) => SimpleAPI()),
+      MaterialPageRoute(builder: (context) => const SimpleAPI()),
     );
   }
 
   void goUsersAPI() {
     Navigator.push(
       context,
-      MaterialPageRoute(builder: (context) => Users()),
+      MaterialPageRoute(builder: (context) => const Users()),
     );
   }
 
@@ -43,6 +42,13 @@ class _MyHomePageState extends State<MyHomePage> {
     Navigator.push(
       context,
       MaterialPageRoute(builder: (context) => DetailPokemon()),
+    );
+  }
+
+  void goGameOfThrones() {
+    Navigator.push(
+      context,
+      MaterialPageRoute(builder: (context) => const GameOfThrones()),
     );
   }
 
@@ -74,6 +80,11 @@ class _MyHomePageState extends State<MyHomePage> {
             ElevatedButton(
               onPressed: goDetailPokemon,
               child: const Text('Details API Pokemon'),
+            ),
+            const SizedBox(height: 20),
+            ElevatedButton(
+              onPressed: goGameOfThrones,
+              child: const Text('Game of Thrones API'),
             ),
           ],
         ),
