@@ -34,9 +34,9 @@ class CounterBloc extends Bloc<CounterEvents, CounterStates> {
   void onSerie(Serie event, Emitter<CounterStates> emit) async {
     String result = "";
     for (int i = 1; i <= counter; i++) {
-      result += "${i * 2}";
+      result += "${i * 2} ";
     }
-    emit(UpdateStateSerie(result.split("").join(",")));
+    emit(UpdateStateSerie(result.split(" ").join(", ")));
   }
 
   void onState(PreventStateCounter event, Emitter<CounterStates> emit) async {
