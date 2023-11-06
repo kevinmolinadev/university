@@ -29,6 +29,24 @@ const tyeDefs = gql `
         email: String
         seller: ID
     }
+    
+    type Branch{
+        id: ID
+        name: String
+        address: String
+        phone: String
+        date_created: String
+        user_id: ID
+    }
+
+    type Sale {
+        id: ID
+        quantity: Int
+        price: Int
+        amount: Int
+        sale_date: String
+        branch_id: ID
+    }
 
     input UserInput {
         name: String
@@ -55,13 +73,33 @@ const tyeDefs = gql `
         email: String
         phone: String
     }    
-
+    
+    input BranchInput{
+        name: String
+        address: String
+        phone: String
+    }    
+    
+    input SaleInput{
+        quantity: Int
+        price: Int
+        amount: Int
+        branch: ID
+    }
+    
     type Query {
         #Users
         getUser(token: String): User
         
         #Products
         getProduct(id: ID): Product
+        
+        #Branchs
+        getBranch(id: ID): Branch
+        
+        #Sales
+        getSale(id:ID):Sale
+        
          
     }
     
@@ -76,6 +114,16 @@ const tyeDefs = gql `
         
         #Client
         newClient(input: ClientInput): Client
+        
+        #Branch
+        newBranch(input: BranchInput): Branch
+        updateBranch(id:ID,input:BranchInput):String
+        deleteBranch(id:ID): String
+        
+        #Sale
+        newSale(input: SaleInput): Sale
+        updateSale(id:ID,input:SaleInput):String
+        deleteSale(id:ID): String
     }
 `;
 
