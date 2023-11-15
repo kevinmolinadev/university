@@ -2,6 +2,9 @@
 const { gql } = require('apollo-server');
 
 const tyeDefs = gql ` 
+    
+    #TYPES
+    
     type User {
         id: ID
         name: String
@@ -47,7 +50,35 @@ const tyeDefs = gql `
         sale_date: String
         branch_id: ID
     }
+    
+    type OrderItems {
+        id: ID
+        quantity: Int
+    }
 
+    type Order {
+        id:ID
+        items:[OrderItems]
+        total: Float
+        client: ID
+        seller: ID
+        date_created: String
+        status: OrderStatus
+    }
+    
+    type TopClient {
+        total: Float
+        client: [Client]
+    }
+
+    type TopSeller {
+        total: Float
+        seller: [User]
+    }
+
+    
+    #INPUTS 
+    
     input UserInput {
         name: String
         last_name: String
@@ -87,6 +118,23 @@ const tyeDefs = gql `
         branch: ID
     }
     
+    input OrderItemInput {
+        id: ID
+        quantity: Int
+    }
+    
+    input OrderInput {
+        items:[OrderItemInput]
+        client:ID
+        status: OrderStatus        
+    }
+   
+    enum OrderStatus{
+        PENDIENTE
+        COMPLETADO
+        RECHAZADO
+    }
+    
     type Query {
         #Users
         getUser(token: String): User
@@ -100,6 +148,16 @@ const tyeDefs = gql `
         #Sales
         getSale(id:ID):Sale
         
+        #Orders
+        getOrders: [Order]
+        getSellerOrders: [Order]
+        getOrderById(id: ID): Order
+        getOrdersByStatus(status: String!): [Order]
+
+        #Top
+        topClients: [TopClient]
+        topSellers: [TopSeller]
+        searchProducts(text: String!): [Product]
          
     }
     
@@ -124,6 +182,11 @@ const tyeDefs = gql `
         newSale(input: SaleInput): Sale
         updateSale(id:ID,input:SaleInput):String
         deleteSale(id:ID): String
+        
+        #Order
+        newOrder(input: OrderInput):Order
+        updateOrder(id: ID!, input: OrderInput):Order
+        deleteOrder(id: ID!): String
     }
 `;
 

@@ -3,10 +3,28 @@ const Product = require('../models/Product');
 const Client = require('../models/Client');
 const Branch = require('../models/Branch');
 const Sale = require('../models/Sale');
+const Order = require("../models/Order")
 const bcryptjs = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 
 require("dotenv").config({path:"variables.env"});
+
+const getTotal=async (order)=> {
+    //Verificar si la cantidad que el cliente esta pidiendo existe en inventario (stock)
+    let total = 0;
+    for (const article of order) {
+        const { id } = article;
+        const product = await Product.findById(id);
+        if (Number(article.quantity) > Number(product.existence)) {
+            throw new Error(`La cantidad del producto ${product.name} no existe en stock`);
+        } else {
+            product.existence -= Number(article.quantity);
+            total += Number(product.price) * Number(article.quantity);
+            if (!isNaN(total)) product.save();
+        }
+    }
+    return total;
+}
 
 const newToken = (user, secret_key, expiresIn) => {
     const { id, name, last_name, email, date_created } = user;
@@ -40,6 +58,100 @@ const resolvers = {
             }catch (e) {
                 console.log(e);
             }
+        },
+        getOrders: async () => {
+            try {
+                return await Order.find();
+            } catch (error) {
+                console.log(error);
+            }
+        },
+        getSellerOrders: async (_, {}, ctx) => {
+            try {
+                return await Order.find({ seller: ctx.id });
+            } catch (error) {
+                console.log(error);
+            }
+        },
+        getOrderById: async (_, { id }, ctx) => {
+            // Check if the order exists
+            const order = await Order.findById(id);
+            if (!order) {
+                throw new Error('Order does not exist');
+            }
+            // Check if the order belongs to the seller
+            if (order.seller.toString() !== ctx.id) {
+                throw new Error('You do not have the credentials to perform this operation');
+            }
+            // Return the order
+            return order;
+        },
+        getOrdersByStatus: async (_, { status }, ctx) => {
+            try {
+                return await Order.find({ seller: ctx.id, status });
+            } catch (error) {
+                console.log(error);
+            }
+        },
+
+        // TOP
+        topClients: async () => {
+            const clients = await Order.aggregate([
+                { $match: { status: "COMPLETADO" } },
+                {
+                    $group: {
+                        _id: "$client",
+                        total: { $sum: '$total' }
+                    }
+                },
+                {
+                    $lookup: {
+                        from: 'clients',
+                        localField: '_id',
+                        foreignField: "_id",
+                        as: "client"
+                    }
+                },
+                {
+                    $limit: 10
+                },
+                {
+                    $sort: { total: -1 }
+                }
+            ]);
+
+            return clients;
+        },
+        topSellers: async () => {
+            const sellers = await Order.aggregate([
+                { $match: { status: "COMPLETADO" } },
+                {
+                    $group: {
+                        _id: "$seller",
+                        total: { $sum: '$total' }
+                    }
+                },
+                {
+                    $lookup: {
+                        from: 'users',
+                        localField: '_id',
+                        foreignField: '_id',
+                        as: 'seller'
+                    }
+                },
+                {
+                    $limit: 3
+                },
+                {
+                    $sort: { total: -1 }
+                }
+            ]);
+
+            return sellers;
+        },
+        searchProducts: async (_, { text }) => {
+            const products = await Product.find({ $text: { $search: text } }).limit(10)
+            return products;
         }
     },
     Mutation: {
@@ -61,7 +173,7 @@ const resolvers = {
                 await user.save();
                 return user;
             } catch (error) {
-                console.log(error)
+                console.log(error);
             }
         },
         authUser: async (_, {input}) => {
@@ -144,7 +256,7 @@ const resolvers = {
                 }
                 return `La sucursal con el id ${id} no existe`;
             } catch (e) {
-                console.log(e)
+                console.log(e);
             }
         },
         deleteBranch: async (_, {id}) => {
@@ -156,7 +268,7 @@ const resolvers = {
                 }
                 return `La sucursal con el id ${id} no existe`;
             } catch (e) {
-                console.log(e)
+                console.log(e);
             }
         },
 
@@ -186,7 +298,7 @@ const resolvers = {
                 }
                 return `La venta con el id ${id} no existe`;
             } catch (e) {
-                console.log(e)
+                console.log(e);
             }
         },
         deleteSale: async (_, {id}) => {
@@ -198,9 +310,71 @@ const resolvers = {
                 }
                 return `La venta con el id ${id} no existe`;
             } catch (e) {
-                console.log(e)
+                console.log(e);
             }
+        },
+
+        //ORDER
+
+        newOrder: async (_, { input }, ctx) => {
+            const { client } = input;
+            //Verificar si el cliente que esta haciendo el pedido existe
+            const clientExists = await Client.findById(client);
+            if (!clientExists) {
+                throw new Error('Cliente no existe');
+            }
+
+            //Verificar si el cliente pertenece al vendedor en curso
+            if (clientExists.seller.toString() !== ctx.id) {
+                throw new Error('No tiene las credenciales para realizar esta operación');
+            }
+            //Crear el nuevo pedido
+            const order = new Order(input);
+            //Asignar el vendedor a ese pedido
+            order.seller = ctx.id;
+            //Obtenemos el total del pedido
+            order.total = await getTotal(input.items);
+            //Grabar el Pedido
+            return await order.save();
+        },
+        updateOrder: async (_, { id, input }, ctx) => {
+            //Verificar si el pedido existe
+            const orderExists = await Order.findById(id);
+            if (!orderExists) {
+                throw new Error('Pedido no existe');
+            }
+            //Verificar si el cliente que esta haciendo el pedido existe
+            const clientExists = await Client.findById(input.client);
+            if (!clientExists) {
+                throw new Error('Cliente no existe');
+            }
+
+            //Verificar si el cliente pertenece al vendedor en curso
+            if (clientExists.seller.toString() !== ctx.id) {
+                throw new Error('No tiene las credenciales para realizar esta operación');
+            }
+
+            //Obtenemos el total del pedido
+            const totalUpdate = await getTotal(input.items);
+
+            //Guardar el pedido a actualizar
+            return Order.findOneAndUpdate({ _id: id }, { ...input, total: totalUpdate }, { new: true });
+        },
+        deleteOrder: async (_, { id }, ctx) => {
+            //Verificar si el pedido existe
+            const orderExists = await Order.findById(id);
+            if (!orderExists) {
+                throw new Error('Pedido no existe');
+            }
+            //Verificar si el cliente pertenece al vendedor en curso
+            if (orderExists.seller.toString() !== ctx.id) {
+                throw new Error('No tiene las credenciales para realizar esta operación');
+            }
+            //Eliminamos el pedido de la base de datos
+            await Order.findOneAndDelete({ _id: id });
+            return "El pedido fue eliminado!!!";
         }
+
     }
 }
 module.exports =resolvers;
