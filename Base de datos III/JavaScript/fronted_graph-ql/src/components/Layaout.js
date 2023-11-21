@@ -2,7 +2,7 @@ import React from "react";
 import Head from "next/head";
 import SideBar from "./SideBar";
 
-const Layaout = () => {
+const Layaout = ({ children }) => {
     return (
         <>
             <Head>
@@ -13,6 +13,7 @@ const Layaout = () => {
                 <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet" />
             </Head>
             <SideBar />
+            {children}
         </>
     );
 }
