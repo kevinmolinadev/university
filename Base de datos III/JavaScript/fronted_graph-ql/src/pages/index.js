@@ -1,4 +1,4 @@
-import Layaout from "../components/Layaout";
+import Layaout from "../components/Layout";
 const Index = () => (
   <Layaout />
 );
