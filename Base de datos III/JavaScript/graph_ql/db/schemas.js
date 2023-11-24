@@ -29,6 +29,7 @@ const tyeDefs = gql `
         id: ID
         name: String
         last_name: String
+        company: String
         email: String
         seller: ID
     }
@@ -144,6 +145,9 @@ const tyeDefs = gql `
         
         #Branchs
         getBranch(id: ID): Branch
+        
+        #Clients
+        getClientsBySeller(id:ID):[Client]
         
         #Sales
         getSale(id:ID):Sale

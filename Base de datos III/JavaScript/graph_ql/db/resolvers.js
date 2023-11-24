@@ -6,6 +6,7 @@ const Sale = require('../models/Sale');
 const Order = require("../models/Order")
 const bcryptjs = require('bcryptjs');
 const jwt = require('jsonwebtoken');
+const {Error} = require("mongoose");
 
 require("dotenv").config({path:"variables.env"});
 
@@ -46,6 +47,15 @@ const resolvers = {
                 const branch=await Branch.findById(id);
                 if(branch) return branch;
                 return "La sucursal no existe";
+            }catch (e) {
+                console.log(e);
+            }
+        },
+        getClientsBySeller:async (_,{id})=>{
+            try{
+                const clients= await  Client.find({seller:id});
+                if(!clients) throw new Error(`No se encontro ningun cliente registrado para el vendedor con id ${id}`);
+                return clients;
             }catch (e) {
                 console.log(e);
             }
