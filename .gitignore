@@ -1,5 +1,12 @@
+# JavaScript
 **/node_modules/
+
+# environment file
 **/.env
+
+# Python
+**/__pycache__/
+**env/
 
 #Flutter archivos
 # Do not remove or rename entries in this file, only add new ones
