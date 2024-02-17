@@ -1,0 +1,19 @@
+
+    input type="number" name="" id="numero">
+    <input type="button" value="Generar" id="boton">
+    <script>
+      let numero = document.getElementById('numero')
+      let btn = document.getElementById('boton')
+      document.write(
+        `<table style='padding= 10px' border=1 id='tabla'></table> `
+      )
+      let table = document.getElementById('tabla')
+      btn.addEventListener('click',()=>{
+         for (let i = 0; i < numero.value; i++) {
+            let tr = document.createElement('tr')
+            table.appendChild(tr)
+            for (let r = 0; r < numero.value; r++) {
+                tr.appendChild(document.createElement('td'))
+            }
+         }})
+</script>

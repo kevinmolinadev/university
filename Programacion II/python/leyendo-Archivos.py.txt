@@ -1,0 +1,269 @@
+''' archivo = "input.txt"
+salida = "result.txt"
+lineas_escribir = []
+
+vocales = ["a", "e", "i", "o", "u"]
+# r = read = va ser un archivo de lectura
+with open(archivo, "r") as archivo_lectura:
+    for vocal in vocales:
+        c=0
+        for linea in archivo_lectura:
+            linea = linea.rstrip()
+            separado = linea.split(" ")
+            #["De","la","Patria,", "el","alto","nombre,"]
+            print(separado)
+            for palabra in separado:
+                v= palabra.split(" ")
+                print(v)
+                if vocal in v  :
+                    c=c+1
+        lineas_escribir.append(str(c) + " - " + vocal)
+            
+#w = write = va ser un archivo de escribir
+with open(salida, "w") as archivo_salida:
+    for linea in lineas_escribir:
+        archivo_salida.write(linea + "\n")
+ '''
+
+
+
+''' archivo = "input.txt"
+fila=0
+vocales = ["a","e","i","o","u"]
+# r = read = va ser un archivo de lectura
+with open(archivo, "r") as archivo_lectura:
+    for linea in archivo_lectura:
+        fila = fila + 1
+        linea = linea.lower()
+        for vocal in vocales:
+            try:
+                indice=linea.index(vocal)
+                print(fila,indice,vocal)
+            except:
+                print('no hay vocal',vocal,'en esta linea')
+        print('========================================') '''
+
+''' archivo = "input.txt"
+salida = open("salida.txt",'w')
+vocales = "aeiou"
+with open(archivo,'r') as archivo_lectura:
+    numero_linea = 0 
+    for linea in archivo_lectura:
+        linea=linea.lower()
+        for i in range(len(linea)):
+            if linea[i] in vocales:
+                salida.write(f"{numero_linea},{i},{linea[i]}\n")
+        numero_linea+= 1
+
+salida.close() '''
+
+
+''' archivo = "Libro71.csv"
+salida = open("salida.csv",'w')
+lineas_escribir = []
+with open(archivo, "r") as archivo_lectura:
+    numero_linea = 0
+    for linea in archivo_lectura:
+        numero_linea += 1
+        linea = linea.rstrip()
+        separado = linea.split(";")
+        valor= float(separado[3])
+        if valor <= 85 and valor >= 70:
+            #print ("Gmt-5")
+            print("GMT-5 -"+ linea)
+            #lineas_escribir.append(  "GMT5 - " + linea)
+            #salida.write(f"GMT-5,{linea}\n")
+        if valor <=70 and valor>=55:
+            #print ("Gmt-4")
+            #lineas_escribir.append( "GMT4 - " + linea)
+            print("GMT-4 -"+ linea)
+            #salida.write(f"GMT-4,{linea}\n")
+        if valor >=40 and valor <= 55:
+            print("GMT-3 -"+ linea)
+            #print ("Gmt-3")
+            #salida.write(f"GMT-3,{linea}\n")
+            #lineas_escribir.append(  "GMT3 - " + linea)
+
+salida.close() '''
+
+
+''' def bucle():
+    print('ingrese x para salir')
+    archivo = input("ingrese el archivo que deseea leer")
+    if(archivo=='x'):
+        return
+    salida = open(f"{archivo}-salida.csv",'w')
+    lineas_escribir = []
+    with open(archivo, "r") as archivo_lectura:
+        for linea in archivo_lectura:
+            linea = linea.rstrip()
+            separado = linea.split(";")
+            valor= float(separado[3])
+            if valor <= 85 and valor >= 70:
+                #print ("Gmt-5")
+                #print("GMT-5 -"+ linea)
+                #lineas_escribir.append(  "GMT5 - " + linea)
+                salida.write(f"GMT-5,{linea}\n")
+            if valor <=70 and valor>=55:
+                #print ("Gmt-4")
+                #lineas_escribir.append( "GMT4 - " + linea)
+                print("GMT-4 -"+ linea)
+                salida.write(f"GMT-4,{linea}\n")
+            if valor >=40 and valor <= 55:
+                print("GMT-3 -"+ linea)
+                #print ("Gmt-3")
+                salida.write(f"GMT-3,{linea}\n")
+                #lineas_escribir.append(  "GMT3 - " + linea)
+    salida.close()
+    bucle()
+bucle() '''
+
+
+#author denzel fuentes nunez
+''' archivo = "datos.csv"
+with open(archivo,'r') as archivo_lectura:
+    for linea in archivo_lectura:
+        suma,cantidad,numero=0
+        separado= linea.split(';')
+        for numero in separado:
+            try:
+                numero=float(numero)
+                if(numero>0):
+                    suma+=numero
+                    cantidad+=1
+            except:
+                continue
+        total=suma/cantidad
+        print( separado[0]+" ---- "+ str(total))  
+        print(f"{separado} --- {str(total)}")
+ '''
+#contar la cantidad de letras por parrafo
+
+
+LETRAS = dict()
+LETRAS = {
+    'a':0,
+    'b':0,
+    'c':0,
+    'd':0,
+    'e':0,
+    'f':0,
+    'g':0,
+    'h':0,
+    'i':0,
+    'j':0,
+    'k':0,
+    'l':0,
+    'm':0,
+    'n':0,
+    'o':0,
+    'p':0,
+    'q':0,
+    'r':0,
+    's':0,
+    't':0,
+    'u':0,
+    'v':0,
+    'w':0,
+    'x':0,
+    'y':0,
+    'z':0
+
+}
+''' archivo = "input.csv"
+num_linea =0
+with open(archivo,'r') as archivo_lectura:
+    for linea in archivo_lectura:
+        num_linea+=1
+        if num_linea %5 ==0:
+            print('----PARRAFO----')
+            for k,n in LETRAS.items():
+                print(k + '---'+ str(n))
+                LETRAS.update({k:0})   
+        else:
+            linea=linea.lower()
+            for i in range(len(linea)):
+                try:
+                    v=LETRAS.get(linea[i])
+                    LETRAS.update({linea[i]:v+1})
+                except:
+                    continue
+
+
+
+ '''
+#Author Denzel fuentes nuñez
+#contar la cantidad de letras que hay en un texto
+letras = dict()
+letras = { 
+    'a':0,
+    'b':0,
+    'c':0,
+    'd':0,
+    'e':0,
+    'f':0,
+    'g':0,
+    'h':0,
+    'i':0,
+    'j':0,
+    'k':0,
+    'l':0,
+    'm':0,
+    'n':0,
+    'o':0,
+    'p':0,
+    'q':0,
+    'r':0,
+    's':0,
+    't':0,
+    'u':0,
+    'v':0,
+    'w':0,
+    'x':0,
+    'y':0,
+    'z':0
+
+}
+''' archivo = "input.csv"
+
+letra = "abcdefghijkmnopqrstwxyz" 
+with open(archivo,'r') as archivo_lectura:
+    for linea in archivo_lectura:
+        linea=linea.lower()
+        for i in range(len(linea)):
+                for k,v in letras.items():
+                    if linea[i] == k:
+                        v+=1
+                        letras.update({k:v})
+            
+for k,v in letras.items():
+    if v ==0:
+        continue
+    else:
+        print(k + '---'+ str(v)) '''
+
+#Autor Denzel Fuentes Nuñez
+#contar la cantidad de letras que hay en un texto
+archivo = "datos.csv"
+ 
+with open(archivo,'r') as archivo_lectura:
+    #recoremos cada linea del archivo
+    for linea in archivo_lectura:
+        #convertimos todas las letras de la linea en minusculas
+        linea=linea.lower()
+        #recoremmos la letra por letra la linea
+        for i in range(len(linea)):
+            #si la letra es un signo no entrara en el try y continuara al siguiente
+            try:
+                #obtenemos el valor pasandole la clave
+                v=letras.get(linea[i])
+                #actualizamos el valor pero sumandole uno le pasamos como parametro la clave
+                letras.update({linea[i]:v+1})
+            except:
+                continue
+#imprimimos el diccionario onteniendo la K=clave V= valor
+for k,v in letras.items():
+    if v ==0:
+        continue
+    else:
+        print(k + '---'+ str(v))

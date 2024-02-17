@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KEVIN MOLINA LAZARTE</title>
+</head>
+
+<body>
+    <script>
+        //Ejercicio1
+        let frutas = ["pera", "papaya", "naranja", "manzana", "sandia", "limon", "mandarinita", "uva", "chirimoya", "pera"];
+        console.log(frutas)
+        let mayor = frutas.reduce((tamaño, fruta) => tamaño.length > fruta.length ? tamaño : fruta);
+        console.log('La fruta mas larga es:' + mayor);
+        let menor = frutas.reduce((tamaño, fruta) => tamaño.length < fruta.length ? tamaño : fruta);
+        console.log('La fruta mas corta es:' + menor);
+
+        //Ejercicio2
+        class Vehiculo {
+            constructor(modelo, color, precio) {
+                this.Modelo = modelo;
+                this.Color = color;
+                this.Precio = precio;
+            }
+            get modelo() {
+                return this.Modelo;
+            }
+            set modelo(modelo) {
+                this.Modelo = modelo;
+            }
+            get color() {
+                return this.Color;
+            }
+            set color(color) {
+                this.Color = color;
+            }
+            get precio() {
+                return this.Precio;
+            }
+            set precio(precio) {
+                this.Precio = precio;
+            }
+            Encender() {
+                return 'Especificaciones del auto Modelo:' + this.Modelo + ' Color:' + this.Color + ' Precio:' + this.Precio;
+            }
+        }
+        let vehiculo1 = new Vehiculo();
+        vehiculo1.modelo = 'B570F';
+        vehiculo1.color = 'negro';
+        vehiculo1.precio = '50.000$'
+        console.log(vehiculo1.Encender());
+        class Motocicleta extends Vehiculo {
+            constructor(modelo, color, precio, neumatico,) {
+                super(modelo, color, precio)
+                this.Neumatico = neumatico;
+            }
+            get neumatico() {
+                return this.Neumatico;
+            }
+            set neumatico(neumatico) {
+                this.Neumatico = neumatico;
+            }
+            Levantar_neumatico() {
+                return 'Especificaciones de la Motocicleta Modelo:' + this.Modelo + ' Color:' + this.Color + ' Precio:' + this.Precio + ' Neumtaicos:' + this.Neumatico;
+            }
+        }
+        let motocicleta1 = new Motocicleta();
+        motocicleta1.modelo = 'M78LK';
+        motocicleta1.color = 'rojo';
+        motocicleta1.precio = '5.000$'
+        motocicleta1.neumatico = 'Aro 27'
+        console.log(motocicleta1.Levantar_neumatico());
+
+        //Ejercicio 3
+        let numero = Number(prompt('La tabla sera de?'))
+        document.write(
+            `<table style='padding= 5rem' border=1 id='tabla'></table> `
+        )
+        let table = document.getElementById('tabla')
+        for (let i = 0; i < numero; i++) {
+            let tr = document.createElement('tr')
+            table.appendChild(tr)
+            for (let r = 0; r < numero; r++) {
+                tr.appendChild(document.createElement('td'))
+            }
+        }
+
+    </script>
+</body>
+
+</html>
