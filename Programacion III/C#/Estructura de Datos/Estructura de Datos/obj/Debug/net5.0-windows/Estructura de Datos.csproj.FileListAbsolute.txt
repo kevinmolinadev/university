@@ -1,0 +1,64 @@
+G:\Universidad\Tercer_Semestre\Programacion III\Trabajos\Estructura de Datos\Estructura de Datos\Estructura de Datos\obj\Debug\net5.0-windows\Estructura de Datos.csproj.AssemblyReference.cache
+G:\Universidad\Tercer_Semestre\Programacion III\Trabajos\Estructura de Datos\Estructura de Datos\Estructura de Datos\obj\Debug\net5.0-windows\MainWindow.baml
+G:\Universidad\Tercer_Semestre\Programacion III\Trabajos\Estructura de Datos\Estructura de Datos\Estructura de Datos\obj\Debug\net5.0-windows\MainWindow.g.cs
+G:\Universidad\Tercer_Semestre\Programacion III\Trabajos\Estructura de Datos\Estructura de Datos\Estructura de Datos\obj\Debug\net5.0-windows\App.g.cs
+G:\Universidad\Tercer_Semestre\Programacion III\Trabajos\Estructura de Datos\Estructura de Datos\Estructura de Datos\obj\Debug\net5.0-windows\Estructura de Datos_MarkupCompile.cache
+G:\Universidad\Tercer_Semestre\Programacion III\Trabajos\Estructura de Datos\Estructura de Datos\Estructura de Datos\obj\Debug\net5.0-windows\Estructura de Datos.g.resources
+G:\Universidad\Tercer_Semestre\Programacion III\Trabajos\Estructura de Datos\Estructura de Datos\Estructura de Datos\obj\Debug\net5.0-windows\Estructura de Datos.GeneratedMSBuildEditorConfig.editorconfig
+G:\Universidad\Tercer_Semestre\Programacion III\Trabajos\Estructura de Datos\Estructura de Datos\Estructura de Datos\obj\Debug\net5.0-windows\Estructura de Datos.AssemblyInfoInputs.cache
+G:\Universidad\Tercer_Semestre\Programacion III\Trabajos\Estructura de Datos\Estructura de Datos\Estructura de Datos\obj\Debug\net5.0-windows\Estructura de Datos.AssemblyInfo.cs
+G:\Universidad\Tercer_Semestre\Programacion III\Trabajos\Estructura de Datos\Estructura de Datos\Estructura de Datos\obj\Debug\net5.0-windows\Estructura de Datos.csproj.CoreCompileInputs.cache
+G:\Universidad\Tercer_Semestre\Programacion III\Trabajos\Estructura de Datos\Estructura de Datos\Estructura de Datos\obj\Debug\net5.0-windows\Ventanas\Lineales\Colas.g.cs
+G:\Universidad\Tercer_Semestre\Programacion III\Trabajos\Estructura de Datos\Estructura de Datos\Estructura de Datos\obj\Debug\net5.0-windows\Ventanas\NoLineales\Arboles.g.cs
+G:\Universidad\Tercer_Semestre\Programacion III\Trabajos\Estructura de Datos\Estructura de Datos\Estructura de Datos\obj\Debug\net5.0-windows\Ventanas\NoLineales\Grafos.g.cs
+G:\Universidad\Tercer_Semestre\Programacion III\Trabajos\Estructura de Datos\Estructura de Datos\Estructura de Datos\obj\Debug\net5.0-windows\Estructura de Datos_MarkupCompile.lref
+G:\Universidad\Tercer_Semestre\Programacion III\Trabajos\Estructura de Datos\Estructura de Datos\Estructura de Datos\bin\Debug\net5.0-windows\Estructura de Datos.exe
+G:\Universidad\Tercer_Semestre\Programacion III\Trabajos\Estructura de Datos\Estructura de Datos\Estructura de Datos\bin\Debug\net5.0-windows\Estructura de Datos.deps.json
+G:\Universidad\Tercer_Semestre\Programacion III\Trabajos\Estructura de Datos\Estructura de Datos\Estructura de Datos\bin\Debug\net5.0-windows\Estructura de Datos.runtimeconfig.json
+G:\Universidad\Tercer_Semestre\Programacion III\Trabajos\Estructura de Datos\Estructura de Datos\Estructura de Datos\bin\Debug\net5.0-windows\Estructura de Datos.runtimeconfig.dev.json
+G:\Universidad\Tercer_Semestre\Programacion III\Trabajos\Estructura de Datos\Estructura de Datos\Estructura de Datos\bin\Debug\net5.0-windows\Estructura de Datos.dll
+G:\Universidad\Tercer_Semestre\Programacion III\Trabajos\Estructura de Datos\Estructura de Datos\Estructura de Datos\bin\Debug\net5.0-windows\Estructura de Datos.pdb
+G:\Universidad\Tercer_Semestre\Programacion III\Trabajos\Estructura de Datos\Estructura de Datos\Estructura de Datos\obj\Debug\net5.0-windows\Ventanas\Lineales\MetodoPilas.g.cs
+G:\Universidad\Tercer_Semestre\Programacion III\Trabajos\Estructura de Datos\Estructura de Datos\Estructura de Datos\obj\Debug\net5.0-windows\Ventanas\Lineales\Colas.baml
+G:\Universidad\Tercer_Semestre\Programacion III\Trabajos\Estructura de Datos\Estructura de Datos\Estructura de Datos\obj\Debug\net5.0-windows\Ventanas\NoLineales\Arboles.baml
+G:\Universidad\Tercer_Semestre\Programacion III\Trabajos\Estructura de Datos\Estructura de Datos\Estructura de Datos\obj\Debug\net5.0-windows\Ventanas\NoLineales\Grafos.baml
+G:\Universidad\Tercer_Semestre\Programacion III\Trabajos\Estructura de Datos\Estructura de Datos\Estructura de Datos\obj\Debug\net5.0-windows\Ventanas\Lineales\MetodoPilas.baml
+G:\Universidad\Tercer_Semestre\Programacion III\Trabajos\Estructura de Datos\Estructura de Datos\Estructura de Datos\obj\Debug\net5.0-windows\Estructura de Datos.dll
+G:\Universidad\Tercer_Semestre\Programacion III\Trabajos\Estructura de Datos\Estructura de Datos\Estructura de Datos\obj\Debug\net5.0-windows\refint\Estructura de Datos.dll
+G:\Universidad\Tercer_Semestre\Programacion III\Trabajos\Estructura de Datos\Estructura de Datos\Estructura de Datos\obj\Debug\net5.0-windows\Estructura de Datos.pdb
+G:\Universidad\Tercer_Semestre\Programacion III\Trabajos\Estructura de Datos\Estructura de Datos\Estructura de Datos\obj\Debug\net5.0-windows\Estructura de Datos.genruntimeconfig.cache
+G:\Universidad\Tercer_Semestre\Programacion III\Trabajos\Estructura de Datos\Estructura de Datos\Estructura de Datos\obj\Debug\net5.0-windows\ref\Estructura de Datos.dll
+G:\Universidad\Tercer_Semestre\Programacion III\Trabajos\Estructura de Datos\Estructura de Datos\Estructura de Datos\obj\Debug\net5.0-windows\Ventanas\Lineales\ListasEnlazadas.g.cs
+G:\Universidad\Tercer_Semestre\Programacion III\Trabajos\Estructura de Datos\Estructura de Datos\Estructura de Datos\obj\Debug\net5.0-windows\Ventanas\Lineales\ListasEnlazadas.baml
+C:\Users\Kevin\Documents\C#\Estructura de Datos\Estructura de Datos\bin\Debug\net5.0-windows\Estructura de Datos.exe
+C:\Users\Kevin\Documents\C#\Estructura de Datos\Estructura de Datos\bin\Debug\net5.0-windows\Estructura de Datos.deps.json
+C:\Users\Kevin\Documents\C#\Estructura de Datos\Estructura de Datos\bin\Debug\net5.0-windows\Estructura de Datos.runtimeconfig.json
+C:\Users\Kevin\Documents\C#\Estructura de Datos\Estructura de Datos\bin\Debug\net5.0-windows\Estructura de Datos.runtimeconfig.dev.json
+C:\Users\Kevin\Documents\C#\Estructura de Datos\Estructura de Datos\bin\Debug\net5.0-windows\Estructura de Datos.dll
+C:\Users\Kevin\Documents\C#\Estructura de Datos\Estructura de Datos\bin\Debug\net5.0-windows\Estructura de Datos.pdb
+C:\Users\Kevin\Documents\C#\Estructura de Datos\Estructura de Datos\obj\Debug\net5.0-windows\Estructura de Datos.csproj.AssemblyReference.cache
+C:\Users\Kevin\Documents\C#\Estructura de Datos\Estructura de Datos\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\Kevin\Documents\C#\Estructura de Datos\Estructura de Datos\obj\Debug\net5.0-windows\Ventanas\Lineales\Colas.g.cs
+C:\Users\Kevin\Documents\C#\Estructura de Datos\Estructura de Datos\obj\Debug\net5.0-windows\Ventanas\Lineales\ListasEnlazadas.g.cs
+C:\Users\Kevin\Documents\C#\Estructura de Datos\Estructura de Datos\obj\Debug\net5.0-windows\Ventanas\Lineales\MetodoPilas.g.cs
+C:\Users\Kevin\Documents\C#\Estructura de Datos\Estructura de Datos\obj\Debug\net5.0-windows\Ventanas\NoLineales\Arboles.g.cs
+C:\Users\Kevin\Documents\C#\Estructura de Datos\Estructura de Datos\obj\Debug\net5.0-windows\Ventanas\NoLineales\Grafos.g.cs
+C:\Users\Kevin\Documents\C#\Estructura de Datos\Estructura de Datos\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\Kevin\Documents\C#\Estructura de Datos\Estructura de Datos\obj\Debug\net5.0-windows\Estructura de Datos_MarkupCompile.cache
+C:\Users\Kevin\Documents\C#\Estructura de Datos\Estructura de Datos\obj\Debug\net5.0-windows\Estructura de Datos_MarkupCompile.lref
+C:\Users\Kevin\Documents\C#\Estructura de Datos\Estructura de Datos\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\Kevin\Documents\C#\Estructura de Datos\Estructura de Datos\obj\Debug\net5.0-windows\Ventanas\Lineales\Colas.baml
+C:\Users\Kevin\Documents\C#\Estructura de Datos\Estructura de Datos\obj\Debug\net5.0-windows\Ventanas\Lineales\ListasEnlazadas.baml
+C:\Users\Kevin\Documents\C#\Estructura de Datos\Estructura de Datos\obj\Debug\net5.0-windows\Ventanas\Lineales\MetodoPilas.baml
+C:\Users\Kevin\Documents\C#\Estructura de Datos\Estructura de Datos\obj\Debug\net5.0-windows\Ventanas\NoLineales\Arboles.baml
+C:\Users\Kevin\Documents\C#\Estructura de Datos\Estructura de Datos\obj\Debug\net5.0-windows\Ventanas\NoLineales\Grafos.baml
+C:\Users\Kevin\Documents\C#\Estructura de Datos\Estructura de Datos\obj\Debug\net5.0-windows\Estructura de Datos.g.resources
+C:\Users\Kevin\Documents\C#\Estructura de Datos\Estructura de Datos\obj\Debug\net5.0-windows\Estructura de Datos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kevin\Documents\C#\Estructura de Datos\Estructura de Datos\obj\Debug\net5.0-windows\Estructura de Datos.AssemblyInfoInputs.cache
+C:\Users\Kevin\Documents\C#\Estructura de Datos\Estructura de Datos\obj\Debug\net5.0-windows\Estructura de Datos.AssemblyInfo.cs
+C:\Users\Kevin\Documents\C#\Estructura de Datos\Estructura de Datos\obj\Debug\net5.0-windows\Estructura de Datos.csproj.CoreCompileInputs.cache
+C:\Users\Kevin\Documents\C#\Estructura de Datos\Estructura de Datos\obj\Debug\net5.0-windows\Estructura de Datos.dll
+C:\Users\Kevin\Documents\C#\Estructura de Datos\Estructura de Datos\obj\Debug\net5.0-windows\refint\Estructura de Datos.dll
+C:\Users\Kevin\Documents\C#\Estructura de Datos\Estructura de Datos\obj\Debug\net5.0-windows\Estructura de Datos.pdb
+C:\Users\Kevin\Documents\C#\Estructura de Datos\Estructura de Datos\obj\Debug\net5.0-windows\Estructura de Datos.genruntimeconfig.cache
+C:\Users\Kevin\Documents\C#\Estructura de Datos\Estructura de Datos\obj\Debug\net5.0-windows\ref\Estructura de Datos.dll

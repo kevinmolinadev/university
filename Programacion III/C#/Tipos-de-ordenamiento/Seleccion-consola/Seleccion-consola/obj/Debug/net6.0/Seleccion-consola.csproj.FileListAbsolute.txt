@@ -1,0 +1,15 @@
+C:\Users\Kevin\Documents\C#\Tipos-de-ordenamiento\Seleccion-consola\Seleccion-consola\bin\Debug\net6.0\Seleccion-consola.exe
+C:\Users\Kevin\Documents\C#\Tipos-de-ordenamiento\Seleccion-consola\Seleccion-consola\bin\Debug\net6.0\Seleccion-consola.deps.json
+C:\Users\Kevin\Documents\C#\Tipos-de-ordenamiento\Seleccion-consola\Seleccion-consola\bin\Debug\net6.0\Seleccion-consola.runtimeconfig.json
+C:\Users\Kevin\Documents\C#\Tipos-de-ordenamiento\Seleccion-consola\Seleccion-consola\bin\Debug\net6.0\Seleccion-consola.dll
+C:\Users\Kevin\Documents\C#\Tipos-de-ordenamiento\Seleccion-consola\Seleccion-consola\bin\Debug\net6.0\Seleccion-consola.pdb
+C:\Users\Kevin\Documents\C#\Tipos-de-ordenamiento\Seleccion-consola\Seleccion-consola\obj\Debug\net6.0\Seleccion-consola.csproj.AssemblyReference.cache
+C:\Users\Kevin\Documents\C#\Tipos-de-ordenamiento\Seleccion-consola\Seleccion-consola\obj\Debug\net6.0\Seleccion-consola.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kevin\Documents\C#\Tipos-de-ordenamiento\Seleccion-consola\Seleccion-consola\obj\Debug\net6.0\Seleccion-consola.AssemblyInfoInputs.cache
+C:\Users\Kevin\Documents\C#\Tipos-de-ordenamiento\Seleccion-consola\Seleccion-consola\obj\Debug\net6.0\Seleccion-consola.AssemblyInfo.cs
+C:\Users\Kevin\Documents\C#\Tipos-de-ordenamiento\Seleccion-consola\Seleccion-consola\obj\Debug\net6.0\Seleccion-consola.csproj.CoreCompileInputs.cache
+C:\Users\Kevin\Documents\C#\Tipos-de-ordenamiento\Seleccion-consola\Seleccion-consola\obj\Debug\net6.0\Seleccion-consola.dll
+C:\Users\Kevin\Documents\C#\Tipos-de-ordenamiento\Seleccion-consola\Seleccion-consola\obj\Debug\net6.0\refint\Seleccion-consola.dll
+C:\Users\Kevin\Documents\C#\Tipos-de-ordenamiento\Seleccion-consola\Seleccion-consola\obj\Debug\net6.0\Seleccion-consola.pdb
+C:\Users\Kevin\Documents\C#\Tipos-de-ordenamiento\Seleccion-consola\Seleccion-consola\obj\Debug\net6.0\Seleccion-consola.genruntimeconfig.cache
+C:\Users\Kevin\Documents\C#\Tipos-de-ordenamiento\Seleccion-consola\Seleccion-consola\obj\Debug\net6.0\ref\Seleccion-consola.dll

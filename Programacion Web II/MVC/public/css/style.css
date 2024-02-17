@@ -1,0 +1,117 @@
+:root {
+    --textColor: #798FAC;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    font-family: inherit;
+}
+
+body {
+    margin: 0;
+}
+
+a,
+a:active {
+    text-decoration: none;
+    color: var(--textColor);
+}
+
+h2 {
+    color: var(--textColor);
+    margin: 0;
+}
+
+hr {
+    width: 100%;
+    height: 5px;
+    border: none;
+    border-top: 1px solid var(--textColor);
+}
+.dashboard {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template: auto/15% 1fr;
+    grid-template-areas: "nav body";
+
+}
+
+.dashboard_nav {
+    background-color: #2A3448;
+    grid-area: nav;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 0.5rem;
+}
+
+.dashboard_nav h2 {
+    margin-top: 1rem;
+}
+
+.dashboard_nav img {
+    width: 30%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.dashboard_nav a:not(:first-child) {
+    padding: 0.2rem 1rem;
+    border-radius: 1rem;
+    font-size: 1.3rem;
+}
+
+.dashboard_nav a:not(:first-child):hover {
+    background-color: #02D1A5;
+    color: #ffffff;
+}
+
+.dashboard_body {
+    background-color: #F3F6FC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-area: body;
+    gap: 1rem;
+}
+.dashboard_body_header ul{
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.15rem;
+    align-items: center;
+    background-color: #01B3BF;
+}
+.dashboard_body_header ul a {
+    color: #000000;
+    font-size: 1.3rem;
+}
+.dashboard_body_content{
+    margin-inline: 1rem;
+    flex-grow: 1;
+    width: calc(100% - 2rem);
+    background-color: #ffffff;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 5px #7e7e7e;
+    display: grid;
+    place-items: center;
+}
+.dashboard_body_footer{
+    background-color: #2A3448;
+    height: 50px;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}

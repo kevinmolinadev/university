@@ -1,0 +1,58 @@
+﻿<Window x:Class="Estructura_de_Datos.Ventanas.MetodoPilas"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Estructura_de_Datos.Ventanas"
+        mc:Ignorable="d"
+        Title="MetodoPilas" Height="450" Width="850">
+    <Grid>
+        <StackPanel Margin="85,124,392,0">
+            <StackPanel Orientation="Horizontal">
+                <Button Content="1" Name="btnNumber1" Click="btnNumber_Click" Width="50" Height="50"/>
+                <Button Content="2" Name="btnNumber2" Click="btnNumber_Click" Width="50" Height="50"/>
+                <Button Content="3" Name="btnNumber3" Click="btnNumber_Click" Width="50" Height="50"/>
+                <Button Content="" Name="btnBlank0" Width="50" Height="50" IsEnabled="False"/>
+                <Button Content="&lt;- " Name="btnBackspace" Click="btnBackspace_Click" Width="50" Height="50"/>
+                <Button Content="AC" Name="btnClear" Click="btnClear_Click" Width="50" Height="50"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Button Content="4" Name="btnNumber4" Click="btnNumber_Click" Width="50" Height="50"/>
+                <Button Content="5" Name="btnNumber5" Click="btnNumber_Click" Width="50" Height="50"/>
+                <Button Content="6" Name="btnNumber6" Click="btnNumber_Click" Width="50" Height="50"/>
+                <Button Content="cos" Name="btnCos" Click="btn_Click" Width="50" Height="50" Tag="coseno"/>
+                <Button Content="sin" Name="btnSin" Click="btn_Click" Width="50" Height="50" Tag="seno"/>
+                <Button Content="log" Name="btnLog" Click="btn_Click" Width="50" Height="50" Tag="log"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Button Content="7" Name="btnNumber7" Click="btnNumber_Click" Width="50" Height="50"/>
+                <Button Content="8" Name="btnNumber8" Click="btnNumber_Click" Width="50" Height="50"/>
+                <Button Content="9" Name="btnNumber9" Click="btnNumber_Click" Width="50" Height="50"/>
+                <Button Content="tan" Name="btnTan" Click="btn_Click" Width="50" Height="50" Tag="tangent"/>
+                <Button Content="*" Name="btnMultiply" Click="btn_Click" Width="50" Height="50" Tag="multiply"/>
+                <Button Content="/" Name="btnDivide" Click="btn_Click" Width="50" Height="50" Tag="divide"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Button Content="" Name="btnBlank" Width="50" Height="50" IsEnabled="False"/>
+                <Button Content="0" Name="btnNumber0" Click="btnNumber_Click" Width="50" Height="50"/>
+                <Button Content="" Name="btnDecimal" Width="50" Height="50" IsEnabled="False"/>
+                <Button Content="^" Name="btnPow" Click="btn_Click" Width="50" Height="50" Tag="pow"/>
+                <Button Content="+" Name="btnAdd" Click="btn_Click" Width="50" Height="50" Tag="add"/>
+                <Button Content="-" Name="btnSubtract" Click="btn_Click" Width="50" Height="50" Tag="subtract"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Button Content="" Name="btnBlank1" Width="50" Height="50" IsEnabled="False"/>
+                <Button Content="" Name="btnBlank2" Width="50" Height="50" IsEnabled="False"/>
+                <Button Content="" Name="btnBlank3" Width="50" Height="50" IsEnabled="False"/>
+                <Button Content="1/x" Name="btnFrac" Click="btn_Click" Width="50" Height="50" Tag="frac"/>
+                <Button Content="√" Name="btnSqrt" Click="btn_Click" Width="50" Height="50" Tag="sqrt"/>
+                <Button Content="=" Name="btnEquals" Click="btnEquals_Click"  Width="50" Height="50" Tag="equals"/>
+            </StackPanel>
+        </StackPanel>
+
+        <TextBox Name="txtDisplay" Height="50" Margin="85,35,458,349" TextChanged="txtDisplay_TextChanged" IsReadOnly="True"/>
+        <Label Content="CALCULADORA" HorizontalAlignment="Left" Height="99" Margin="407,35,0,0" VerticalAlignment="Top" Width="424" FontSize="60"/>
+        <Label Content="CON" HorizontalAlignment="Left" Height="99" Margin="530,139,0,0" VerticalAlignment="Top" Width="162" FontSize="60" RenderTransformOrigin="0.469,0.505"/>
+        <Label Content="PILAS" HorizontalAlignment="Left" Height="99" Margin="530,238,0,0" VerticalAlignment="Top" Width="178" FontSize="60"/>
+    </Grid>
+</Window>
