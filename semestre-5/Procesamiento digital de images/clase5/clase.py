@@ -40,6 +40,42 @@ def get_coordinates_of_color(img):
     return [points_x,points_y]
 
 
+def create_border_of_color(img):
+    (row,column) = img.shape
+    border = np.zeros((row,column))
+    for i in range(1,row - 1):
+        for j in range(1,column - 1):
+            count = np.sum([
+                img[i - 1,j - 1],
+                img[i,j - 1],
+                img[i + 1,j - 1],
+                img[i - 1,j],
+                img[i + 1,j],
+                img[i - 1,j + 1],
+                img[i,j + 1],
+                img[i + 1,j + 1]
+            ])
+            
+            if(count >= 3 and count <=6):
+                border[i -1,j]=1
+                border[i + 1,j]=1
+                border[i,j]=1
+                border[i,j - 1]=1
+                border[i,j + 1]=1
+                    
+    return border
+
+def draw_border(img,mask):
+    img_copy=copy.deepcopy(img)
+    (row,column,_)=img_copy.shape
+    for i in range(row):
+        for j in range(column):
+            if(mask[i,j]==1):
+                img_copy[i,j,:]=[155, 89, 182]
+                
+    return img_copy
+
+
 img = cv2.imread("../img/flowers.jpg")
 img_channel_raw = img[:,:,(2,1,0)]
 img_channel = copy.deepcopy(img_channel_raw)
@@ -74,9 +110,15 @@ render(img_cleaned_red)
 #Delimit the desired color: Red of img
 #render_with_lines(img_channel_raw,get_coordinates_of_color(img_cleaned_red))
 
+# Create border
+img_mask=create_border_of_color(img_cleaned_red)
+img_with_border = draw_border(img_channel_raw, img_mask)
+render(img_with_border)
+
 ## Yellow
 green_segmentated = G > 100
 red_green_segmented_yellow = np.logical_and(red_segmentated,green_segmentated)
 img_segmented_yellow = np.logical_and(red_green_segmented_yellow,blue_segmentated)
 img_cleaned_yellow = clear_img(img_segmented_yellow)
-render_with_lines(img_channel_raw,get_coordinates_of_color(img_cleaned_yellow))
+#render_with_lines(img_channel_raw,get_coordinates_of_color(img_cleaned_yellow))
+
