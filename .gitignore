@@ -7,7 +7,7 @@
 # Python
 **/__pycache__/
 **env/
-.spyproject
+**.spyproject
 
 #Flutter archivos
 # Do not remove or rename entries in this file, only add new ones
