@@ -25,6 +25,7 @@ def segmentation(raw_img,threshold):
 def render(value):
     plt.clf()
     plt.imshow(value,cmap="gray")
+    plt.show()
 
 
 #rice = imread("../img/onerice.bmp")
