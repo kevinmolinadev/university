@@ -2,12 +2,7 @@ import copy
 import numpy as np
 from cv2 import imread
 import matplotlib.pyplot as plt
-from clase5.clase import clear_img, create_border_of_color, draw_border, get_coordinates_of_color, render_with_lines
-
-def render(value):
-    plt.clf()
-    plt.imshow(value,cmap="gray")
-    plt.show()
+from helpers.functions import render, clear_img, create_border_of_color, draw_border
     
 def histogram(img,color):
     img_copy = np.copy(img)
@@ -15,9 +10,7 @@ def histogram(img,color):
     img_copy.shape = row*column
     plt.hist(img_copy, bins=255,range=(0,255),histtype="step",color=color)
 
-
 # Fruits
-
 fruits = imread("../img/frutos_rojos.png")
 fruits_channel_raw = fruits[:,:,(2,1,0)]
 fruits_channel = copy.deepcopy(fruits_channel_raw)

@@ -1,8 +1,6 @@
-# -*- coding: utf-8 -*-
 import numpy as np
 from cv2 import imread
-import matplotlib.pyplot as plt
-from clase1.clase  import render
+from helpers.functions  import render
 
 w_matrix=10
 h_matrix=10

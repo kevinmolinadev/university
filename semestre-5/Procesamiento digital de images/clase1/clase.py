@@ -1,32 +1,5 @@
-# -*- coding: utf-8 -*-
-import numpy as np
 from cv2 import imread
-import matplotlib.pyplot as plt
-
-
-def information(img):
-    print("size:",img.shape)
-    print("max:",np.max(img))
-    print("min:", np.min(img))
-
-def segmentation(raw_img,threshold):
-    (row,column)=raw_img.shape
-    new_img = np.zeros((row,column))
-    area = 0
-    for i in range(row):
-        for j in range(column):
-            if raw_img[i,j] > threshold:
-                new_img[i,j] = 255
-                area += 1
-    print("area:",area)
-    return new_img
-    
-    
-def render(value):
-    plt.clf()
-    plt.imshow(value,cmap="gray")
-    plt.show()
-
+from helpers.functions import render, segmentation
 
 #rice = imread("../img/onerice.bmp")
 #rice_one_channel = rice[:,:,0]

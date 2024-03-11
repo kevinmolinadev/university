@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
-from clase1.clase import information
+from helpers.functions import information
 
 
 

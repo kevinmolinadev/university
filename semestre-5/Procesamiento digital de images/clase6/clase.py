@@ -1,7 +1,7 @@
 import numpy as np
 from cv2 import imread
 import matplotlib.pyplot as plt
-from clase1.clase import render
+from helpers.functions import render
 
 def get_histogram(img):
     (row,column) = img.shape
